@@ -4,20 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="Images/crypto-removebg-preview.png" type="image/x-icon">
+    <title>Hockey Haven</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="style/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+        body{
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
     <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" >
-    >
-    <title>Hockey Haven</title>
 </head>
-<body>
-    <header class="container mx-auto lg:px-22 sm:px-8 sm:my-8">
-        <div class="navbar px-8">
+<body class="px-3">
+    <header class="container mx-auto lg:px-20 px-0 sm:my-8 sm:py-2">
+        <div class="navbar lg:px-0">
             <div class="navbar-start">
               <div class="sd: dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden pl-0">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                 </div>
                 <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
@@ -63,12 +67,103 @@
                 <div class="hidden lg:opacity-50 lg:px-5 lg:block sm:hidden">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
-              <a class="btn bg-[#FF4240] text-white lg:px-6 lg:py-4 sm:h-4 sm:w-35 lg:h-14 lg:w-35">Get Ticket</a>
+              <a class="btn bg-[#FF4240] text-white lg:px-6 lg:py-4 sm:h-2 sm:w-35 lg:h-14 lg:w-35 sm:px-1">Get Ticket</a>
             </div>
           </div>
     </header>
-    <main>
+    <div class="container mx-auto my-2 lg:px-20 sm:px-3 sm:my-8">
+        <div class="carousel w-full rounded-xl">
+            <div id="slide1" class="carousel-item relative w-full bg-[linear-gradient(rgba(211,211,211,1)0%,rgba(211,211,211,0)100%),url('Images/carousel2.jpg')] h-[30vh] lg:h-[60vh] bg-cover">
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle bg-slate-400">❮</a> 
+                <a href="#slide2" class="btn btn-circle bg-slate-400">❯</a>
+              </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full bg-[linear-gradient(rgba(211,211,211,1)0%,rgba(211,211,211,0)100%),url('Images/carousel1.jpg')] h-[30vh] lg:h-[60vh] bg-cover">
+             
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle bg-slate-400">❮</a> 
+                <a href="#slide3" class="btn btn-circle bg-slate-400">❯</a>
+              </div>
+            </div> 
+            <div id="slide3" class="carousel-item relative w-full bg-[linear-gradient(rgba(211,211,211,1)0%,rgba(211,211,211,0)100%),url('Images/carousel3.jpg')] h-[30vh] lg:h-[60vh] bg-cover">
+              
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle bg-slate-400">❮</a> 
+                <a href="#slide4" class="btn btn-circle bg-slate-400">❯</a>
+              </div>
+            </div> 
+            <div id="slide4" class="carousel-item relative w-full bg-[linear-gradient(rgba(211,211,211,1)0%,rgba(211,211,211,0)100%),url('Images/carousel4.jpg')] h-[30vh] lg:h-[60vh] bg-cover">
+              
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle bg-slate-400">❮</a> 
+                <a href="#slide1" class="btn btn-circle bg-slate-400">❯</a>
+              </div>
+            </div>
+        </div>
+        <div class="relative my-2">
+            <div class="bg-[#131318] px-3 py-3 lg:px-5 lg:py-5 w-full lg:w-[45vh] h-[15vh] rounded-xl lg:absolute lg:right-20 lg:bottom-10">
+                <h2 class="font-extrabold text-lg text-white my-auto mx-auto">
+                    Field heroes unite for special moments
+                </h2>
+                <p class="text-[#FFFFFF99] text-sm font-medium my-auto lg:my-4 mx-auto leading-tight">
+                    Discover the team's heroes, uniting passion and skill for an extraordinary hockey experience.
+                </p>
+            </div>
+        </div>
+    </div>
+    <main class="container mx-auto my-2 lg:px-20 sm:px-3 sm:my-8">
+        <nav>
+            <div class="my-4 mx-auto flex-col justify-center text-center border-y-2 border-dotted py-4">
+                <h1 class="text-xl font-extrabold lg:text-4xl ">
+                    Professional Hockey Club
+                </h1>
+                <p class="text-base font-sm my-4 lg:w-[70vh] lg: mx-auto my-8 w-full text-[#13131899] lg:flex lg:justify-center lg:text-center">
+                    Elevate your passion for hockey with our professional club . where skill meets excellence, and victories become a tradition. Join us in a journey of precision, power, and the pursuit of championship glory.
+                </p>
+            </div>
+            <div class="flex-col text-center lg:text-justify lg:mx-0 border-b-2 border-dotted py-4 lg:pt-3 lg:pb-8">
+                <div class="lg:flex lg:justify-evenly lg:text-center">
+                    <div class="my-4 mx-auto">
+                        <div class="radial-progress text-primary text-red-600" style="--value:87;" role="progressbar"><span style="color: black;font-weight: 800;">87%</span></div>
+                        <h2 class="font-semibold my-5 mx-auto">
+                            Prayer Facility
+                        </h2>
+                        <p class="text-[#13131899] text-base max-w-15">
+                            Elevate your spirit with our prayer<br> facility for holistic development.
+                        </p>
+                    </div>
+                    <div class="my-4 mx-auto">
+                        <div class="radial-progress text-primary text-green-400" style="--value:95;" role="progressbar"><span style="color: black;font-weight: 800;">95%</span></div>
+                        <h2 class="font-semibold my-5 mx-auto">
+                            Experienced Coach
+                        </h2>
+                        <p class="text-[#13131899] text-base max-w-15">
+                            Guidance from an experienced coach <br>fuels our success story.
+                        </p>
+                    </div>
+                    <div class="my-4 mx-auto">
+                        <div class="radial-progress text-yellow-400" style="--value:90;" role="progressbar"><span style="color: black;font-weight: 800;">90%</span></div>
+                        <h2 class="font-semibold my-5 mx-auto">
+                            Senior Player
+                        </h2>
+                        <p class="text-[#13131899] text-base max-w-15">
+                            Senior players lead the charge, <br>bringing skill and leadership.
+                        </p>
+                    </div>
+                    <div class="my-4 mx-auto">
+                        <div class="radial-progress text-primary text-blue-500" style="--value:80;" role="progressbar"><span style="color: black;font-weight: 800;">80%</span></div>
+                        <h2 class="font-semibold my-5 mx-auto">
+                            Training Ground
+                        </h2>
+                        <p class="text-[#13131899] text-base max-w-15">
+                            Optimal training grounds for honing <br>excellence in every practice.
+                        </p>
+                    </div>
+                </div>
 
+            </div>
+        </nav>
     </main>
     <footer>
         
