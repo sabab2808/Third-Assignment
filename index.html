@@ -20,23 +20,45 @@
 
 </head>
 
-<body class="px-3">
+<body>
 
-
-    <header class="container mx-auto lg:px-20 px-0 sm:my-8 sm:py-2">
-        <div class="navbar lg:px-0">
-            <div class="navbar-start">
-                <div class="sd: dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden pl-0">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M4 6h16M4 12h8m-8 6h16" />
-                        </svg>
+    <nav class="px-3">
+        <header class="container mx-auto lg:px-20 px-0 sm:my-8 sm:py-2">
+            <div class="navbar lg:px-0">
+                <div class="navbar-start">
+                    <div class="sd: dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden pl-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li>
+                                <a>Home</a>
+                            </li>
+                            <li>
+                                <a>About</a>
+                            </li>
+                            <li>
+                                <a>Pages</a>
+                            </li>
+                            <li>
+                                <a>Blog</a>
+                            </li>
+                            <li>
+                                <a>Contact</a>
+                            </li>
+                        </ul>
                     </div>
-                    <ul tabindex="0"
-                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                        <li>
+                    <a class="sm:text-xl lg:text-4xl font-extrabold tex"><span
+                            class="text-[#FF4240]">H</span>ockeyHaven</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 lg:text-base">
+                        <li class="text-[#FF4240]">
                             <a>Home</a>
                         </li>
                         <li>
@@ -53,876 +75,947 @@
                         </li>
                     </ul>
                 </div>
-                <a class="sm:text-xl lg:text-4xl font-extrabold tex"><span class="text-[#FF4240]">H</span>ockeyHaven</a>
-            </div>
-            <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal px-1 lg:text-base">
-                    <li class="text-[#FF4240]">
-                        <a>Home</a>
-                    </li>
-                    <li>
-                        <a>About</a>
-                    </li>
-                    <li>
-                        <a>Pages</a>
-                    </li>
-                    <li>
-                        <a>Blog</a>
-                    </li>
-                    <li>
-                        <a>Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="navbar-end">
-                <div class="hidden lg:opacity-50 lg:px-5 lg:block sm:hidden">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
-                <a class="btn bg-[#FF4240] text-white lg:px-6 lg:py-4 sm:h-2 sm:w-35 lg:h-14 lg:w-35 sm:px-1">Get
-                    Ticket</a>
-            </div>
-        </div>
-    </header>
-
-
-    <div class="container mx-auto my-2 lg:px-20 sm:px-3 sm:my-8">
-        <div class="carousel w-full rounded-xl">
-            <div id="slide1"
-                class="carousel-item relative w-full bg-[linear-gradient(rgba(211,211,211,1)0%,rgba(211,211,211,0)100%),url('Images/carousel2.jpg')] h-[30vh] lg:h-[60vh] bg-cover">
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide4" class="btn btn-circle bg-slate-400">❮</a>
-                    <a href="#slide2" class="btn btn-circle bg-slate-400">❯</a>
+                <div class="navbar-end">
+                    <div class="hidden lg:opacity-50 lg:px-5 lg:block sm:hidden">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <a class="btn bg-[#FF4240] text-white lg:px-6 lg:py-4 sm:h-2 sm:w-35 lg:h-14 lg:w-35 sm:px-1">Get
+                        Ticket</a>
                 </div>
             </div>
-            <div id="slide2"
-                class="carousel-item relative w-full bg-[linear-gradient(rgba(211,211,211,1)0%,rgba(211,211,211,0)100%),url('Images/carousel1.jpg')] h-[30vh] lg:h-[60vh] bg-cover">
+        </header>
 
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide1" class="btn btn-circle bg-slate-400">❮</a>
-                    <a href="#slide3" class="btn btn-circle bg-slate-400">❯</a>
+
+        <div class="container mx-auto my-2 lg:px-20 sm:px-3 sm:my-8">
+            <div class="carousel w-full rounded-xl">
+                <div id="slide1"
+                    class="carousel-item relative w-full bg-[linear-gradient(rgba(211,211,211,1)0%,rgba(211,211,211,0)100%),url('Images/carousel2.jpg')] h-[30vh] lg:h-[60vh] bg-cover">
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle bg-slate-400">❮</a>
+                        <a href="#slide2" class="btn btn-circle bg-slate-400">❯</a>
+                    </div>
+                </div>
+                <div id="slide2"
+                    class="carousel-item relative w-full bg-[linear-gradient(rgba(211,211,211,1)0%,rgba(211,211,211,0)100%),url('Images/carousel1.jpg')] h-[30vh] lg:h-[60vh] bg-cover">
+
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle bg-slate-400">❮</a>
+                        <a href="#slide3" class="btn btn-circle bg-slate-400">❯</a>
+                    </div>
+                </div>
+                <div id="slide3"
+                    class="carousel-item relative w-full bg-[linear-gradient(rgba(211,211,211,1)0%,rgba(211,211,211,0)100%),url('Images/carousel3.jpg')] h-[30vh] lg:h-[60vh] bg-cover">
+
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle bg-slate-400">❮</a>
+                        <a href="#slide4" class="btn btn-circle bg-slate-400">❯</a>
+                    </div>
+                </div>
+                <div id="slide4"
+                    class="carousel-item relative w-full bg-[linear-gradient(rgba(211,211,211,1)0%,rgba(211,211,211,0)100%),url('Images/carousel4.jpg')] h-[30vh] lg:h-[60vh] bg-cover">
+
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle bg-slate-400">❮</a>
+                        <a href="#slide1" class="btn btn-circle bg-slate-400">❯</a>
+                    </div>
                 </div>
             </div>
-            <div id="slide3"
-                class="carousel-item relative w-full bg-[linear-gradient(rgba(211,211,211,1)0%,rgba(211,211,211,0)100%),url('Images/carousel3.jpg')] h-[30vh] lg:h-[60vh] bg-cover">
-
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide2" class="btn btn-circle bg-slate-400">❮</a>
-                    <a href="#slide4" class="btn btn-circle bg-slate-400">❯</a>
-                </div>
-            </div>
-            <div id="slide4"
-                class="carousel-item relative w-full bg-[linear-gradient(rgba(211,211,211,1)0%,rgba(211,211,211,0)100%),url('Images/carousel4.jpg')] h-[30vh] lg:h-[60vh] bg-cover">
-
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide3" class="btn btn-circle bg-slate-400">❮</a>
-                    <a href="#slide1" class="btn btn-circle bg-slate-400">❯</a>
+            <div class="relative my-2">
+                <div
+                    class="bg-[#131318] px-3 py-3 lg:px-5 lg:py-5 w-full lg:w-[45vh] h-[15vh] rounded-xl lg:absolute lg:right-20 lg:bottom-10">
+                    <h2 class="font-extrabold text-lg text-white my-auto mx-auto">
+                        Field heroes unite for special moments
+                    </h2>
+                    <p class="text-[#FFFFFF99] text-sm font-medium my-auto lg:my-4 mx-auto leading-tight">
+                        Discover the team's heroes, uniting passion and skill for an extraordinary hockey experience.
+                    </p>
                 </div>
             </div>
         </div>
-        <div class="relative my-2">
-            <div
-                class="bg-[#131318] px-3 py-3 lg:px-5 lg:py-5 w-full lg:w-[45vh] h-[15vh] rounded-xl lg:absolute lg:right-20 lg:bottom-10">
-                <h2 class="font-extrabold text-lg text-white my-auto mx-auto">
-                    Field heroes unite for special moments
-                </h2>
-                <p class="text-[#FFFFFF99] text-sm font-medium my-auto lg:my-4 mx-auto leading-tight">
-                    Discover the team's heroes, uniting passion and skill for an extraordinary hockey experience.
-                </p>
-            </div>
-        </div>
-    </div>
 
 
-    <main class="container mx-auto my-2 lg:px-20 sm:px-3 sm:my-8">
+        <main class="container mx-auto my-2 lg:px-20 sm:px-3 sm:my-8">
 
-        <nav>
-            <div class="my-4 mx-auto flex-col justify-center text-center border-y-2 border-dotted py-4">
-                <h1 class="text-xl font-extrabold lg:text-4xl ">
-                    Professional Hockey Club
-                </h1>
-                <p
-                    class="text-base font-sm lg:w-[70vh] lg: mx-auto my-8 w-[40vh] text-[#13131899] lg:flex lg:justify-center lg:text-center">
-                    Elevate your passion for hockey with our professional club . where skill meets excellence, and
-                    victories become a tradition. Join us in a journey of precision, power, and the pursuit of
-                    championship glory.
-                </p>
-            </div>
-            <div
-                class="flex-col text-center lg:text-justify lg:mx-0 border-b-2 pb-6 border-dotted py-4 lg:pt-3 lg:pb-9">
-                <div class="lg:flex lg:justify-evenly lg:text-center">
-                    <div class="my-4 mx-auto">
-                        <div class="radial-progress font-extrabold text-primary text-red-600"
-                            style="--value:87; transform: rotate(130deg);" role="progressbar"><span
-                                style="color: black; transform: rotate(-130deg);">87%</span></div>
-                        <h1 class="font-semibold my-5 mx-auto">
-                            Prayer Facility
-                        </h1>
-                        <p class="text-[#13131899] text-base max-w-15">
-                            Elevate your spirit with our prayer<br> facility for holistic development.
-                        </p>
-                    </div>
-                    <div class="my-4 mx-auto">
-                        <div class="radial-progress font-extrabold text-primary text-green-400"
-                            style="--value:90    ;transform: rotate(110deg)" role="progressbar"><span
-                                style="color: black;transform: rotate(-110deg)">95%</span></div>
-                        <h1 class="font-semibold my-5 mx-auto">
-                            Experienced Coach
-                        </h1>
-                        <p class="text-[#13131899] text-base max-w-15">
-                            Guidance from an experienced coach <br>fuels our success story.
-                        </p>
-                    </div>
-                    <div class="my-4 mx-auto">
-                        <div class="radial-progress font-extrabold text-yellow-400"
-                            style="--value:90;transform: rotate(130deg)" role="progressbar"><span
-                                style="color: black;transform: rotate(-130deg)">90%</span></div>
-                        <h1 class="font-semibold my-5 mx-auto">
-                            Senior Player
-                        </h1>
-                        <p class="text-[#13131899] text-base max-w-15">
-                            Senior players lead the charge, <br>bringing skill and leadership.
-                        </p>
-                    </div>
-                    <div class="my-4 mx-auto">
-                        <div class="radial-progress text-primary text-blue-500 font-extrabold"
-                            style="--value:80;transform: rotate(150deg)" role="progressbar"><span
-                                style="color: black;transform: rotate(-150deg)">80%</span></div>
-                        <h1 class="font-semibold my-5 mx-auto">
-                            Training Ground
-                        </h1>
-                        <p class="text-[#13131899] text-base max-w-15">
-                            Optimal training grounds for honing <br>excellence in every practice.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-        </nav>
-
-
-        <nav class="mb-14 border-b-2 border-dotted py-7 lg:py-14">
-            <div class="my-4 mx-auto flex-col justify-center text-center border-b-2 border-dotted py-4">
-                <h1 class="text-xl font-extrabold lg:text-4xl ">
-                    Program Section
-                </h1>
-                <p
-                    class="text-base font-sm lg:w-[70vh] lg: mx-auto my-8 w-[40vh] lg:flex lg:justify-center lg:text-center text-[#13131899]">
-                    Embark on a transformative journey with our enriching program. Where passion meets purpose, and
-                    excellence becomes a lifelong commitment.
-                </p>
-            </div>
-
-            <!-- grid -->
-
-            <div class="grid grid-cols-1 grid-rows-1 gap-4 lg:grid-cols-2 lg:grid-rows-1 text-white mt-8">
-                <div
-                    class="bg-[linear-gradient(rgba(19,19,24,0.50),rgba(19,19,24,0.50)),url('Images/2.png')] w-full h-[25vh] rounded-xl lg:bg-no-repeat lg:w-full lg:h-[50vh] lg:bg-cover lg:relative bg-cover">
-                    <div class="my-6 lg:absolute lg:bottom-4 lg:mx-5">
-                        <h1 class="text-xl font-extrabold mx-5 my-auto lg:text-3xl">
-                            Junior Program
-                        </h1>
-                        <p class="text-sm font-medium mx-5 mt-3 lg:text-base">
-                            Nurture the love for the game in our Junior Program—where young talents learn and form
-                            lasting bonds in the spirit of teamwork.
-                        </p>
-                        <a
-                            class="btn bg-[#FF4240] text-white lg:px-6 lg:py-4 h-2 sm:w-35 lg:h-14 lg:w-35 sm:px-1 border-0 w-[17vh] mx-5 my-4">Register
-                            Now!</a>
-                    </div>
-
+            <nav>
+                <div class="my-4 mx-auto flex-col justify-center text-center border-y-2 border-dotted py-4">
+                    <h1 class="text-xl font-extrabold lg:text-4xl ">
+                        Professional Hockey Club
+                    </h1>
+                    <p
+                        class="text-base font-sm lg:w-[70vh] lg: mx-auto my-8 w-[40vh] text-[#13131899] lg:flex lg:justify-center lg:text-center">
+                        Elevate your passion for hockey with our professional club . where skill meets excellence, and
+                        victories become a tradition. Join us in a journey of precision, power, and the pursuit of
+                        championship glory.
+                    </p>
                 </div>
                 <div
-                    class="bg-[linear-gradient(rgba(19,19,24,0.50),rgba(19,19,24,0.50)),url('Images/3.png')] w-full h-[25vh] lg:bg-no-repeat lg:w-full lg:h-[50vh] lg:bg-cover rounded-xl lg:relative bg-cover">
-                    <div class="my-6 lg:absolute lg:bottom-4 lg:mx-5">
-                        <h1 class="text-xl font-extrabold mx-5 my-auto lg:text-3xl">
-                            Teenager Program
-                        </h1>
-                        <p class="text-sm font-medium mx-5 mt-4 lg:text-base">
-                            Transforming teens into hockey leaders. Elevate skills, resilience, and teamwork with our
-                            dedicated Teenager Program.
-                        </p>
-                        <a
-                            class="btn bg-[#FF4240] text-white lg:px-6 lg:py-4 h-2 sm:w-35 lg:h-14 lg:w-35 sm:px-1 border-0 w-[17vh] mx-5 my-4">Register
-                            Now!</a>
-                    </div>
-
-                </div>
-                <div
-                    class="bg-[linear-gradient(rgba(19,19,24,0.50),rgba(19,19,24,0.50)),url('Images/4.png')] w-full h-[25vh] lg:col-span-2 lg:bg-no-repeat lg:w-full lg:h-[50vh] rounded-xl lg:bg-cover lg:relative bg-cover">
-                    <div class="my-6 lg:absolute lg:bottom-4 lg:mx-5">
-                        <h1 class="text-xl font-extrabold mx-5 my-auto lg:text-3xl">
-                            Professional Program
-                        </h1>
-                        <p class="text-sm font-medium mx-5 mt-4 lg:text-base">
-                            Forge greatness in our Professional Program. Elite coaching, cutting-edge training, and a
-                            pathway to hockey excellence.
-                        </p>
-                        <a
-                            class="btn bg-[#FF4240] text-white lg:px-6 lg:py-4 sm:h-2 sm:w-35 lg:h-14 lg:w-35 sm:px-1 border-0 w-[17vh] mx-5 my-4">Register
-                            Now!</a>
-                    </div>
-
-                </div>
-            </div>
-        </nav>
-
-
-        <nav class="border-b-2 border-dotted pb-7 lg:pb-14">
-            <div class="my-4 mx-auto flex-col justify-center text-center border-b-2 border-dotted pb-7">
-                <h1 class="text-xl font-extrabold lg:text-4xl ">
-                    Our New Products
-                </h1>
-                <p
-                    class="text-base font-sm lg:w-[70vh] lg: mx-auto my-8 w-[40vh] lg:flex lg:justify-center lg:text-center text-[#13131899]">
-                    Discover innovation and elevate your game with our latest arrivals-introducing excellence through
-                    our new and exciting products.
-                </p>
-            </div>
-            <div class="grid grid-cols-1 grid-rows-1 gap-5 lg:grid-cols-2 lg:grid-rows-3 pt-7">
-                <div class="container mx-auto border-solid border-2 rounded-2xl p-6  lg:p-4">
-
-                    <div class="card w-full shadow-xl">
-                        <div class="lg:flex">
-                            <div class="rounded-xl w-full p-3 lg:w-auto">
-                                <img src="Images/5.png" alt="Football Jacket" style=" width: 100%; margin: 0 auto; ">
-                            </div>
-                            <div class="card-body -mx-4 -my-3">
-
-                                <div class="flex justify-between w-[26vh] mb-3">
-
-                                    <div class="rating">
-                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                        <p class="ms-2 text-base font-medium text-[#13131880]">4.65</p>
-                                    </div>
-
-                                    <div class="flex">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                            viewBox="0 0 24 24" fill="none">
-                                            <g clip-path="url(#clip0_33_196)">
-                                                <path
-                                                    d="M10 11.9995C10 12.5299 10.2107 13.0387 10.5858 13.4137C10.9609 13.7888 11.4696 13.9995 12 13.9995C12.5304 13.9995 13.0391 13.7888 13.4142 13.4137C13.7893 13.0387 14 12.5299 14 11.9995C14 11.4691 13.7893 10.9604 13.4142 10.5853C13.0391 10.2102 12.5304 9.99951 12 9.99951C11.4696 9.99951 10.9609 10.2102 10.5858 10.5853C10.2107 10.9604 10 11.4691 10 11.9995Z"
-                                                    stroke="#131318" stroke-opacity="0.5" stroke-width="1.5"
-                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                                <path
-                                                    d="M21 11.9995C18.6 15.9995 15.6 17.9995 12 17.9995C8.4 17.9995 5.4 15.9995 3 11.9995C5.4 7.99951 8.4 5.99951 12 5.99951C15.6 5.99951 18.6 7.99951 21 11.9995Z"
-                                                    stroke="#131318" stroke-opacity="0.5" stroke-width="1.5"
-                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                            </g>
-                                            <defs>
-                                                <clipPath id="clip0_33_196">
-                                                    <rect width="24" height="24" fill="white"
-                                                        transform="translate(0 -0.000488281)" />
-                                                </clipPath>
-                                            </defs>
-                                        </svg>
-                                        <p class="ms-2 text-base font-medium text-[#13131880]">45</p>
-                                    </div>
-
-                                    <div class="rating gap-1">
-                                        <input type="radio" name="rating-3"
-                                            class="mask mask-heart bg-slate-100 border-3" />
-                                        <p class="ms-2 text-base font-medium text-[#13131880]">200</p>
-
-                                    </div>
-
-
-                                </div>
-
-                                <h2 class="card-title text-xl font-extrabold lg:-mt-2">
-                                    Football Jacket
-                                </h2>
-                                <p class="text-base font-medium text-[#13131899]">
-                                    Elevate your style on and off the field with our football jacket!
-                                </p>
-
-                                <div class=" lg:flex lg:-mt-4">
-                                    <p class="font-extrabold text-[#FF4240] text-lg pt-2">Price - $25.00</p>
-                                    <div class="card-actions justify-end my-2">
-                                        <div class="opacity-50">
-                                            <i class="fa-solid fa-cart-shopping"></i>
-                                        </div>
-                                        <p class="text-[#13131880] text-base font-medium">Delivery Fee : Free</p>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div>
-
-                <div class="container mx-auto border-solid border-2 rounded-2xl p-4">
-                    <div class="card w-full shadow-xl">
-                        <div class="lg:flex">
-                            <div class="rounded-xl w-full p-3 lg:w-auto">
-                                <img src="Images/6.png" alt="Football" style="width: 100%; margin: 0 auto;">
-                            </div>
-                            <div class="card-body -mx-4 -my-3">
-
-                                <div class="flex justify-between w-[26vh] mb-3">
-
-                                    <div class="rating">
-                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                        <p class="ms-2 text-base font-medium text-[#13131880]">4.95</p>
-                                    </div>
-
-                                    <div class="flex">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                            viewBox="0 0 24 24" fill="none">
-                                            <g clip-path="url(#clip0_33_196)">
-                                                <path
-                                                    d="M10 11.9995C10 12.5299 10.2107 13.0387 10.5858 13.4137C10.9609 13.7888 11.4696 13.9995 12 13.9995C12.5304 13.9995 13.0391 13.7888 13.4142 13.4137C13.7893 13.0387 14 12.5299 14 11.9995C14 11.4691 13.7893 10.9604 13.4142 10.5853C13.0391 10.2102 12.5304 9.99951 12 9.99951C11.4696 9.99951 10.9609 10.2102 10.5858 10.5853C10.2107 10.9604 10 11.4691 10 11.9995Z"
-                                                    stroke="#131318" stroke-opacity="0.5" stroke-width="1.5"
-                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                                <path
-                                                    d="M21 11.9995C18.6 15.9995 15.6 17.9995 12 17.9995C8.4 17.9995 5.4 15.9995 3 11.9995C5.4 7.99951 8.4 5.99951 12 5.99951C15.6 5.99951 18.6 7.99951 21 11.9995Z"
-                                                    stroke="#131318" stroke-opacity="0.5" stroke-width="1.5"
-                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                            </g>
-                                            <defs>
-                                                <clipPath id="clip0_33_196">
-                                                    <rect width="24" height="24" fill="white"
-                                                        transform="translate(0 -0.000488281)" />
-                                                </clipPath>
-                                            </defs>
-                                        </svg>
-                                        <p class="ms-2 text-base font-medium text-[#13131880]">40</p>
-                                    </div>
-
-                                    <div class="rating gap-1">
-                                        <input type="radio" name="rating-3"
-                                            class="mask mask-heart bg-slate-100 border-3" />
-                                        <p class="ms-2 text-base font-medium text-[#13131880]">200</p>
-
-                                    </div>
-
-
-                                </div>
-
-                                <h2 class="card-title text-xl font-extrabold lg:-mt-2">
-                                    Footballs
-                                </h2>
-                                <p class="text-base font-medium text-[#13131899]">
-                                    Elevate your gameplay on the field with our high quality footballs!
-                                </p>
-                                <div class=" lg:flex lg:-mt-4">
-                                    <p class="font-extrabold text-[#FF4240] text-lg pt-2">Price - $35.00</p>
-                                    <div class="card-actions justify-end my-2">
-                                        <div class="opacity-50">
-                                            <i class="fa-solid fa-cart-shopping"></i>
-                                        </div>
-                                        <p class="text-[#13131880] text-base font-medium">Delivery Fee : Free</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="container mx-auto border-solid border-2 rounded-2xl p-4">
-                    <div class="card w-full shadow-xl">
-                        <div class="lg:flex">
-                            <div class="rounded-xl w-full p-3 lg:w-auto">
-                                <img src="Images/7.png" alt="Hockey Cap" style="width: 100%; margin: 0 auto;">
-                            </div>
-                            <div class="card-body -mx-4 -my-3">
-
-                                <div class="flex justify-between w-[26vh] mb-3">
-
-                                    <div class="rating">
-                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                        <p class="ms-2 text-base font-medium text-[#13131880]">4.95</p>
-                                    </div>
-
-                                    <div class="flex">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                            viewBox="0 0 24 24" fill="none">
-                                            <g clip-path="url(#clip0_33_196)">
-                                                <path
-                                                    d="M10 11.9995C10 12.5299 10.2107 13.0387 10.5858 13.4137C10.9609 13.7888 11.4696 13.9995 12 13.9995C12.5304 13.9995 13.0391 13.7888 13.4142 13.4137C13.7893 13.0387 14 12.5299 14 11.9995C14 11.4691 13.7893 10.9604 13.4142 10.5853C13.0391 10.2102 12.5304 9.99951 12 9.99951C11.4696 9.99951 10.9609 10.2102 10.5858 10.5853C10.2107 10.9604 10 11.4691 10 11.9995Z"
-                                                    stroke="#131318" stroke-opacity="0.5" stroke-width="1.5"
-                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                                <path
-                                                    d="M21 11.9995C18.6 15.9995 15.6 17.9995 12 17.9995C8.4 17.9995 5.4 15.9995 3 11.9995C5.4 7.99951 8.4 5.99951 12 5.99951C15.6 5.99951 18.6 7.99951 21 11.9995Z"
-                                                    stroke="#131318" stroke-opacity="0.5" stroke-width="1.5"
-                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                            </g>
-                                            <defs>
-                                                <clipPath id="clip0_33_196">
-                                                    <rect width="24" height="24" fill="white"
-                                                        transform="translate(0 -0.000488281)" />
-                                                </clipPath>
-                                            </defs>
-                                        </svg>
-                                        <p class="ms-2 text-base font-medium text-[#13131880]">40</p>
-                                    </div>
-
-                                    <div class="rating gap-1">
-                                        <input type="radio" name="rating-3"
-                                            class="mask mask-heart bg-slate-100 border-3" />
-                                        <p class="ms-2 text-base font-medium text-[#13131880]">200</p>
-
-                                    </div>
-
-
-                                </div>
-
-                                <h2 class="card-title text-xl font-extrabold lg:-mt-2">
-                                    Hockey Cap
-                                </h2>
-                                <p class="text-base font-medium text-[#13131899]">
-                                    Top off your style with our iconic hockey-themed caps!
-                                </p>
-                                <div class=" lg:flex lg:-mt-4">
-                                    <p class="font-extrabold text-[#FF4240] text-lg pt-2">Price - $15.00</p>
-                                    <div class="card-actions justify-end my-2">
-                                        <div class="opacity-50">
-                                            <i class="fa-solid fa-cart-shopping"></i>
-                                        </div>
-                                        <p class="text-[#13131880] text-base font-medium">Delivery Fee : Free</p>
-
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="container mx-auto border-solid border-2 rounded-2xl p-4">
-                    <div class="card w-full shadow-xl">
-                        <div class="lg:flex">
-                            <div class="rounded-xl w-full p-3 lg:w-auto">
-                                <img src="Images/8.png" alt="Hockey Jersey" style="width: 100%; margin: 0 auto;">
-                            </div>
-                            <div class="card-body -mx-4 -my-3">
-                                <div class="flex justify-between w-[26vh] mb-3">
-
-                                    <div class="rating">
-                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                        <p class="ms-2 text-base font-medium text-[#13131880]">4.95</p>
-                                    </div>
-
-                                    <div class="flex">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                            viewBox="0 0 24 24" fill="none">
-                                            <g clip-path="url(#clip0_33_196)">
-                                                <path
-                                                    d="M10 11.9995C10 12.5299 10.2107 13.0387 10.5858 13.4137C10.9609 13.7888 11.4696 13.9995 12 13.9995C12.5304 13.9995 13.0391 13.7888 13.4142 13.4137C13.7893 13.0387 14 12.5299 14 11.9995C14 11.4691 13.7893 10.9604 13.4142 10.5853C13.0391 10.2102 12.5304 9.99951 12 9.99951C11.4696 9.99951 10.9609 10.2102 10.5858 10.5853C10.2107 10.9604 10 11.4691 10 11.9995Z"
-                                                    stroke="#131318" stroke-opacity="0.5" stroke-width="1.5"
-                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                                <path
-                                                    d="M21 11.9995C18.6 15.9995 15.6 17.9995 12 17.9995C8.4 17.9995 5.4 15.9995 3 11.9995C5.4 7.99951 8.4 5.99951 12 5.99951C15.6 5.99951 18.6 7.99951 21 11.9995Z"
-                                                    stroke="#131318" stroke-opacity="0.5" stroke-width="1.5"
-                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                            </g>
-                                            <defs>
-                                                <clipPath id="clip0_33_196">
-                                                    <rect width="24" height="24" fill="white"
-                                                        transform="translate(0 -0.000488281)" />
-                                                </clipPath>
-                                            </defs>
-                                        </svg>
-                                        <p class="ms-2 text-base font-medium text-[#13131880]">40</p>
-                                    </div>
-
-                                    <div class="rating gap-1">
-                                        <input type="radio" name="rating-3"
-                                            class="mask mask-heart bg-slate-100 border-3" />
-                                        <p class="ms-2 text-base font-medium text-[#13131880]">200</p>
-
-                                    </div>
-
-
-                                </div>
-
-                                <h2 class="card-title text-xl font-extrabold lg:-mt-2">
-                                    Hockey Jersey
-                                </h2>
-                                <p class="text-base font-medium text-[#13131899]">
-                                    Gear up in style with our premium hockey jerseys collection.
-                                </p>
-                                <div class=" lg:flex lg:-mt-4">
-                                    <p class="font-extrabold text-[#FF4240] text-lg pt-2">Price - $29.00</p>
-                                    <div class="card-actions justify-end my-2">
-                                        <div class="opacity-50">
-                                            <i class="fa-solid fa-cart-shopping"></i>
-                                        </div>
-                                        <p class="text-[#13131880] text-base font-medium">Delivery Fee : Free</p>
-
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="container mx-auto border-solid border-2 rounded-2xl p-4 ">
-                    <div class="card w-full shadow-xl">
-                        <div class="lg:flex">
-                            <div class="rounded-xl w-full p-3 lg:w-auto">
-                                <img src="Images/9.png" alt="Hockey Helmet" style="width: 100%; margin: 0 auto;">
-                            </div>
-                            <div class="card-body -mx-4 -my-3">
-                                <div class="flex justify-between w-[26vh] mb-3">
-
-                                    <div class="rating">
-                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                        <p class="ms-2 text-base font-medium text-[#13131880]">4.95</p>
-                                    </div>
-
-                                    <div class="flex">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                            viewBox="0 0 24 24" fill="none">
-                                            <g clip-path="url(#clip0_33_196)">
-                                                <path
-                                                    d="M10 11.9995C10 12.5299 10.2107 13.0387 10.5858 13.4137C10.9609 13.7888 11.4696 13.9995 12 13.9995C12.5304 13.9995 13.0391 13.7888 13.4142 13.4137C13.7893 13.0387 14 12.5299 14 11.9995C14 11.4691 13.7893 10.9604 13.4142 10.5853C13.0391 10.2102 12.5304 9.99951 12 9.99951C11.4696 9.99951 10.9609 10.2102 10.5858 10.5853C10.2107 10.9604 10 11.4691 10 11.9995Z"
-                                                    stroke="#131318" stroke-opacity="0.5" stroke-width="1.5"
-                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                                <path
-                                                    d="M21 11.9995C18.6 15.9995 15.6 17.9995 12 17.9995C8.4 17.9995 5.4 15.9995 3 11.9995C5.4 7.99951 8.4 5.99951 12 5.99951C15.6 5.99951 18.6 7.99951 21 11.9995Z"
-                                                    stroke="#131318" stroke-opacity="0.5" stroke-width="1.5"
-                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                            </g>
-                                            <defs>
-                                                <clipPath id="clip0_33_196">
-                                                    <rect width="24" height="24" fill="white"
-                                                        transform="translate(0 -0.000488281)" />
-                                                </clipPath>
-                                            </defs>
-                                        </svg>
-                                        <p class="ms-2 text-base font-medium text-[#13131880]">40</p>
-                                    </div>
-
-                                    <div class="rating gap-1">
-                                        <input type="radio" name="rating-3"
-                                            class="mask mask-heart bg-slate-100 border-3" />
-                                        <p class="ms-2 text-base font-medium text-[#13131880]">200</p>
-
-                                    </div>
-
-
-                                </div>
-                                <h2 class="card-title text-xl font-extrabold lg:-mt-2">
-                                    Hockey Helmet
-                                </h2>
-                                <p class="text-base font-medium text-[#13131899]">
-                                    Stay protected on the ice with our cutting-edge hockey helmets.
-                                </p>
-                                <div class=" lg:flex lg:-mt-4">
-                                    <p class="font-extrabold text-[#FF4240] text-lg pt-2">Price - $28.00</p>
-                                    <div class="card-actions justify-end my-2">
-                                        <div class="opacity-50">
-                                            <i class="fa-solid fa-cart-shopping"></i>
-                                        </div>
-                                        <p class="text-[#13131880] text-base font-medium">Delivery Fee : Free</p>
-
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="container mx-auto border-solid border-2 rounded-2xl p-4">
-                    <div class="card w-full shadow-xl">
-                        <div class="lg:flex">
-                            <div class="rounded-xl w-full p-3 lg:w-auto">
-                                <img src="Images/10.png" alt="World Cup Football" style="width: 100%; margin: 0 auto;">
-                            </div>
-                            <div class="card-body -mx-4 -my-3">
-                                <div class="flex justify-between w-[26vh] mb-3">
-
-                                    <div class="rating">
-                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                        <p class="ms-2 text-base font-medium text-[#13131880]">4.95</p>
-                                    </div>
-
-                                    <div class="flex">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                            viewBox="0 0 24 24" fill="none">
-                                            <g clip-path="url(#clip0_33_196)">
-                                                <path
-                                                    d="M10 11.9995C10 12.5299 10.2107 13.0387 10.5858 13.4137C10.9609 13.7888 11.4696 13.9995 12 13.9995C12.5304 13.9995 13.0391 13.7888 13.4142 13.4137C13.7893 13.0387 14 12.5299 14 11.9995C14 11.4691 13.7893 10.9604 13.4142 10.5853C13.0391 10.2102 12.5304 9.99951 12 9.99951C11.4696 9.99951 10.9609 10.2102 10.5858 10.5853C10.2107 10.9604 10 11.4691 10 11.9995Z"
-                                                    stroke="#131318" stroke-opacity="0.5" stroke-width="1.5"
-                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                                <path
-                                                    d="M21 11.9995C18.6 15.9995 15.6 17.9995 12 17.9995C8.4 17.9995 5.4 15.9995 3 11.9995C5.4 7.99951 8.4 5.99951 12 5.99951C15.6 5.99951 18.6 7.99951 21 11.9995Z"
-                                                    stroke="#131318" stroke-opacity="0.5" stroke-width="1.5"
-                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                            </g>
-                                            <defs>
-                                                <clipPath id="clip0_33_196">
-                                                    <rect width="24" height="24" fill="white"
-                                                        transform="translate(0 -0.000488281)" />
-                                                </clipPath>
-                                            </defs>
-                                        </svg>
-                                        <p class="ms-2 text-base font-medium text-[#13131880]">40</p>
-                                    </div>
-
-                                    <div class="rating gap-1">
-                                        <input type="radio" name="rating-3"
-                                            class="mask mask-heart bg-slate-100 border-3" />
-                                        <p class="ms-2 text-base font-medium text-[#13131880]">200</p>
-
-                                    </div>
-
-
-                                </div>
-                                <h2 class="card-title text-xl font-extrabold lg:-mt-2">
-                                    World Cup Football
-                                </h2>
-                                <p class="text-base font-medium text-[#13131899]">
-                                    Unleash your passion with our official World Cup football collection.
-                                </p>
-                                <div class=" lg:flex lg:-mt-4">
-                                    <p class="font-extrabold text-[#FF4240] text-lg pt-2">Price - $70.00</p>
-                                    <div class="card-actions justify-end my-2">
-                                        <div class="opacity-50">
-                                            <i class="fa-solid fa-cart-shopping"></i>
-                                        </div>
-                                        <p class="text-[#13131880] text-base font-medium">Delivery Fee : Free</p>
-
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </nav>
-
-
-        <nav class="border-b-2 border-dotted pb-7 lg:pb-14">
-            <div class="my-4 mx-auto justify-center text-center border-b-2 border-dotted py-4 lg:pb-14">
-                <h1 class="text-xl font-extrabold lg:text-4xl ">
-                    QnA Section
-                </h1>
-                <p
-                    class="text-base font-sm lg:w-[70vh] lg: mx-auto my-8 w-[40vh] lg:flex lg:justify-center lg:text-center text-[#13131899]">
-                    Dive into knowledge! Explore our Q&A section for answers to your burning questions and discover
-                    insights.
-                </p>
-            </div>
-            <div class="lg:mt-12 mt-6">
-                <div
-                    class="lg:grid lg:grid-cols-2 lg:gap-7 lg:grid-rows-1 flex-col border-solid border-2 rounded-2xl p-6 lg:p-7">
-                    <div class="w-full lg:my-3">
-                        <img src="Images/11.png" alt="Faq" style="width: 100%;">
-
-                    </div>
-
-                    <div class="">
-                        <div class="collapse collapse-plus bg-base-200 my-3 lg:my-5 lg:mb-3 lg:mt-8">
-                            <input type="radio" name="my-accordion-3" checked="checked" />
-                            <div class="collapse-title text-xl font-bold">
-                                Our Equipment
-                            </div>
-                            <div class="collapse-content">
-                                <p class="text-base text-[#13131899]">
-                                    Unleash your potential with cutting-edge gear. Elevate your game with our premium
-                                    equipment collection.
-                                </p>
-                            </div>
-
-                        </div>
-                        <hr>
-                        <div class="collapse collapse-plus bg-base-200 my-3 lg:my-5">
-                            <input type="radio" name="my-accordion-3" />
-                            <div class="collapse-title text-xl font-bold">
-                                Hockey Training
-                            </div>
-                            <div class="collapse-content">
-                                <p class="text-base text-[#13131899]">
-                                    Power up your game with precision training-where dedication meets the puck, forging
-                                    champions on the ice.
-                                </p>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="collapse collapse-plus bg-base-200 my-3 lg:my-5">
-                            <input type="radio" name="my-accordion-3" />
-                            <div class="collapse-title text-xl font-bold">
-                                Private Lessons
-                            </div>
-                            <div class="collapse-content">
-                                <p class="text-base text-[#13131899]">
-                                    Elevate your skills with personalized attention. Unlock your potential through
-                                    tailored private lessons with our expert coaches.
-                                </p>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="collapse collapse-plus bg-base-200 my-3 lg:my-5">
-                            <input type="radio" name="my-accordion-3" />
-                            <div class="collapse-title text-xl font-bold">
-                                Ski Touring
-                            </div>
-                            <div class="collapse-content">
-                                <p class="text-base text-[#13131899]">
-                                    Embark on an exhilarating journey through pristine snowscapes with our ski touring
-                                    adventures—where every slope becomes a story.
-                                </p>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="collapse collapse-plus bg-base-200 my-3 lg:my-5">
-                            <input type="radio" name="my-accordion-3" />
-                            <div class="collapse-title text-xl font-bold">
-                                Booking
-                            </div>
-                            <div class="collapse-content">
-                                <p class="text-base text-[#13131899]">
-                                    Seamless bookings, endless experiences. Reserve your spot and unlock the journey to
-                                    unforgettable moments with us!
-                                </p>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="collapse collapse-plus bg-base-200 mt-3 lg:my-5">
-                            <input type="radio" name="my-accordion-3" />
-                            <div class="collapse-title text-xl font-bold">
-                                Pricings
-                            </div>
-                            <div class="collapse-content">
-                                <p class="text-base text-[#13131899]">
-                                    Unlock exceptional value with transparent pricing. Choose the plan that suits your
-                                    needs and elevate your experience.
-                                </p>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-        </nav>
-
-        <nav class="border-b-2 border-dotted pb-7 lg:py-8">
-            <div class="my-4 mx-auto justify-center text-center border-b-2 border-dotted py-4">
-                <h1 class="text-xl font-extrabold lg:text-4xl ">
-                    Get In Touch
-                </h1>
-                <p
-                    class="text-base font-sm lg:w-[70vh] lg: mx-auto my-8 w-[40vh] lg:flex lg:justify-center lg:text-center text-[#13131899]">
-                    Connect with us! Reach out and let's start a conversation. Your journey begins here, with us ready
-                    to assist you.
-                </p>
-            </div>
-            <div class="lg:grid lg:grid-cols-2 lg:grid-rows-1 lg:gap-8">
-
-                <div class="grid grid-rows-3 grid-cols-1 gap-4">
-                    <div class="border-solid border-2 rounded-2xl p-5">
-                        <div class="border-none border-2 rounded-2xl bg-lime-100 p-6">
-                            <img src="Images/phone.png" alt="phone">
-                            <p class="text-[#13131899] mt-4 mb-2">
-                                Phone Number:
-                            </p>
-                            <h1 class="text-lg font-extrabold my-2">
-                                (+880) 123 456 7890
+                    class="flex-col text-center lg:text-justify lg:mx-0 border-b-2 pb-6 border-dotted py-4 lg:pt-3 lg:pb-9">
+                    <div class="lg:flex lg:justify-evenly lg:text-center">
+                        <div class="my-4 mx-auto">
+                            <div class="radial-progress font-extrabold text-primary text-red-600"
+                                style="--value:87; transform: rotate(130deg);" role="progressbar"><span
+                                    style="color: black; transform: rotate(-130deg);">87%</span></div>
+                            <h1 class="font-semibold my-5 mx-auto">
+                                Prayer Facility
                             </h1>
-                        </div>
-                    </div>
-                    <div class="border-solid border-2 rounded-2xl p-5">
-                        <div class="border-none border-2 rounded-2xl bg-yellow-100 p-6">
-                            <img src="Images/message.png" alt="Email">
-                            <p class="text-[#13131899] my-3">
-                                Email:
+                            <p class="text-[#13131899] text-base max-w-15">
+                                Elevate your spirit with our prayer<br> facility for holistic development.
                             </p>
-                            <h1 class="text-lg font-extrabold my-3">
-                                sabab2808@gmail.com
-                            </h1>
                         </div>
-                    </div>
-                    <div class="border-solid border-2 rounded-2xl p-5">
-                        <div class="border-none border-2 rounded-2xl bg-cyan-100 p-6">
-                            <img src="Images/map.png" alt="location">
-                            <p class="text-[#13131899] my-2">
-                                Location:
-                            </p>
-                            <h1 class="text-lg font-extrabold my-2">
-                                East Monipur,Kazipara,<br>
-                                Mirpur2,Dhaka 1216.
+                        <div class="my-4 mx-auto">
+                            <div class="radial-progress font-extrabold text-primary text-green-400"
+                                style="--value:90    ;transform: rotate(110deg)" role="progressbar"><span
+                                    style="color: black;transform: rotate(-110deg)">95%</span></div>
+                            <h1 class="font-semibold my-5 mx-auto">
+                                Experienced Coach
                             </h1>
+                            <p class="text-[#13131899] text-base max-w-15">
+                                Guidance from an experienced coach <br>fuels our success story.
+                            </p>
+                        </div>
+                        <div class="my-4 mx-auto">
+                            <div class="radial-progress font-extrabold text-yellow-400"
+                                style="--value:90;transform: rotate(130deg)" role="progressbar"><span
+                                    style="color: black;transform: rotate(-130deg)">90%</span></div>
+                            <h1 class="font-semibold my-5 mx-auto">
+                                Senior Player
+                            </h1>
+                            <p class="text-[#13131899] text-base max-w-15">
+                                Senior players lead the charge, <br>bringing skill and leadership.
+                            </p>
+                        </div>
+                        <div class="my-4 mx-auto">
+                            <div class="radial-progress text-primary text-blue-500 font-extrabold"
+                                style="--value:80;transform: rotate(150deg)" role="progressbar"><span
+                                    style="color: black;transform: rotate(-150deg)">80%</span></div>
+                            <h1 class="font-semibold my-5 mx-auto">
+                                Training Ground
+                            </h1>
+                            <p class="text-[#13131899] text-base max-w-15">
+                                Optimal training grounds for honing <br>excellence in every practice.
+                            </p>
                         </div>
                     </div>
 
                 </div>
+            </nav>
 
-                <div class="lg:grid lg:grid-rows-4 lg:grid-cols-2 lg:gap-5">
-                    <div>
-                        <h1 class="font-bold text-lg mt-7 mb-3">
-                            Your Name
-                        </h1>
-                        <div class="text-sm">
-                            <input type="text" name="Your Name" id="Your Name" required
-                                placeholder="     Enter your full name"
-                                class="bg-[#13131805] h-[6vh] rounded-2xl w-full border-none outline-none">
+
+            <nav class="mb-14 border-b-2 border-dotted py-7 lg:py-14">
+                <div class="my-4 mx-auto flex-col justify-center text-center border-b-2 border-dotted py-4">
+                    <h1 class="text-xl font-extrabold lg:text-4xl ">
+                        Program Section
+                    </h1>
+                    <p
+                        class="text-base font-sm lg:w-[70vh] lg: mx-auto my-8 w-[40vh] lg:flex lg:justify-center lg:text-center text-[#13131899]">
+                        Embark on a transformative journey with our enriching program. Where passion meets purpose, and
+                        excellence becomes a lifelong commitment.
+                    </p>
+                </div>
+
+                <!-- grid -->
+
+                <div class="grid grid-cols-1 grid-rows-1 gap-4 lg:grid-cols-2 lg:grid-rows-1 text-white mt-8">
+                    <div
+                        class="bg-[linear-gradient(rgba(19,19,24,0.50),rgba(19,19,24,0.50)),url('Images/2.png')] w-full h-[25vh] rounded-xl lg:bg-no-repeat lg:w-full lg:h-[50vh] lg:bg-cover lg:relative bg-cover">
+                        <div class="my-6 lg:absolute lg:bottom-4 lg:mx-5">
+                            <h1 class="text-xl font-extrabold mx-5 my-auto lg:text-3xl">
+                                Junior Program
+                            </h1>
+                            <p class="text-sm font-medium mx-5 mt-3 lg:text-base">
+                                Nurture the love for the game in our Junior Program—where young talents learn and form
+                                lasting bonds in the spirit of teamwork.
+                            </p>
+                            <a
+                                class="btn bg-[#FF4240] text-white lg:px-6 lg:py-4 h-2 sm:w-35 lg:h-14 lg:w-35 sm:px-1 border-0 w-[17vh] mx-5 my-4">Register
+                                Now!</a>
+                        </div>
+
+                    </div>
+                    <div
+                        class="bg-[linear-gradient(rgba(19,19,24,0.50),rgba(19,19,24,0.50)),url('Images/3.png')] w-full h-[25vh] lg:bg-no-repeat lg:w-full lg:h-[50vh] lg:bg-cover rounded-xl lg:relative bg-cover">
+                        <div class="my-6 lg:absolute lg:bottom-4 lg:mx-5">
+                            <h1 class="text-xl font-extrabold mx-5 my-auto lg:text-3xl">
+                                Teenager Program
+                            </h1>
+                            <p class="text-sm font-medium mx-5 mt-4 lg:text-base">
+                                Transforming teens into hockey leaders. Elevate skills, resilience, and teamwork with
+                                our
+                                dedicated Teenager Program.
+                            </p>
+                            <a
+                                class="btn bg-[#FF4240] text-white lg:px-6 lg:py-4 h-2 sm:w-35 lg:h-14 lg:w-35 sm:px-1 border-0 w-[17vh] mx-5 my-4">Register
+                                Now!</a>
+                        </div>
+
+                    </div>
+                    <div
+                        class="bg-[linear-gradient(rgba(19,19,24,0.50),rgba(19,19,24,0.50)),url('Images/4.png')] w-full h-[25vh] lg:col-span-2 lg:bg-no-repeat lg:w-full lg:h-[50vh] rounded-xl lg:bg-cover lg:relative bg-cover">
+                        <div class="my-6 lg:absolute lg:bottom-4 lg:mx-5">
+                            <h1 class="text-xl font-extrabold mx-5 my-auto lg:text-3xl">
+                                Professional Program
+                            </h1>
+                            <p class="text-sm font-medium mx-5 mt-4 lg:text-base">
+                                Forge greatness in our Professional Program. Elite coaching, cutting-edge training, and
+                                a
+                                pathway to hockey excellence.
+                            </p>
+                            <a
+                                class="btn bg-[#FF4240] text-white lg:px-6 lg:py-4 sm:h-2 sm:w-35 lg:h-14 lg:w-35 sm:px-1 border-0 w-[17vh] mx-5 my-4">Register
+                                Now!</a>
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+
+
+            <nav class="border-b-2 border-dotted pb-7 lg:pb-14">
+                <div class="my-4 mx-auto flex-col justify-center text-center border-b-2 border-dotted pb-7">
+                    <h1 class="text-xl font-extrabold lg:text-4xl ">
+                        Our New Products
+                    </h1>
+                    <p
+                        class="text-base font-sm lg:w-[70vh] lg: mx-auto my-8 w-[40vh] lg:flex lg:justify-center lg:text-center text-[#13131899]">
+                        Discover innovation and elevate your game with our latest arrivals-introducing excellence
+                        through
+                        our new and exciting products.
+                    </p>
+                </div>
+                <div class="grid grid-cols-1 grid-rows-1 gap-5 lg:grid-cols-2 lg:grid-rows-3 pt-7">
+                    <div class="container mx-auto border-solid border-2 rounded-2xl p-6  lg:p-4">
+
+                        <div class="card w-full shadow-xl">
+                            <div class="lg:flex">
+                                <div class="rounded-xl w-full p-3 lg:w-auto">
+                                    <img src="Images/5.png" alt="Football Jacket"
+                                        style=" width: 100%; margin: 0 auto; ">
+                                </div>
+                                <div class="card-body -mx-4 -my-3">
+
+                                    <div class="flex justify-between w-[26vh] mb-3">
+
+                                        <div class="rating">
+                                            <input type="radio" name="rating-2"
+                                                class="mask mask-star-2 bg-orange-400" />
+                                            <p class="ms-2 text-base font-medium text-[#13131880]">4.65</p>
+                                        </div>
+
+                                        <div class="flex">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none">
+                                                <g clip-path="url(#clip0_33_196)">
+                                                    <path
+                                                        d="M10 11.9995C10 12.5299 10.2107 13.0387 10.5858 13.4137C10.9609 13.7888 11.4696 13.9995 12 13.9995C12.5304 13.9995 13.0391 13.7888 13.4142 13.4137C13.7893 13.0387 14 12.5299 14 11.9995C14 11.4691 13.7893 10.9604 13.4142 10.5853C13.0391 10.2102 12.5304 9.99951 12 9.99951C11.4696 9.99951 10.9609 10.2102 10.5858 10.5853C10.2107 10.9604 10 11.4691 10 11.9995Z"
+                                                        stroke="#131318" stroke-opacity="0.5" stroke-width="1.5"
+                                                        stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path
+                                                        d="M21 11.9995C18.6 15.9995 15.6 17.9995 12 17.9995C8.4 17.9995 5.4 15.9995 3 11.9995C5.4 7.99951 8.4 5.99951 12 5.99951C15.6 5.99951 18.6 7.99951 21 11.9995Z"
+                                                        stroke="#131318" stroke-opacity="0.5" stroke-width="1.5"
+                                                        stroke-linecap="round" stroke-linejoin="round" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_33_196">
+                                                        <rect width="24" height="24" fill="white"
+                                                            transform="translate(0 -0.000488281)" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                            <p class="ms-2 text-base font-medium text-[#13131880]">45</p>
+                                        </div>
+
+                                        <div class="rating gap-1">
+                                            <input type="radio" name="rating-3"
+                                                class="mask mask-heart bg-slate-100 border-3" />
+                                            <p class="ms-2 text-base font-medium text-[#13131880]">200</p>
+
+                                        </div>
+
+
+                                    </div>
+
+                                    <h2 class="card-title text-xl font-extrabold lg:-mt-2">
+                                        Football Jacket
+                                    </h2>
+                                    <p class="text-base font-medium text-[#13131899]">
+                                        Elevate your style on and off the field with our football jacket!
+                                    </p>
+
+                                    <div class=" lg:flex lg:-mt-4">
+                                        <p class="font-extrabold text-[#FF4240] text-lg pt-2">Price - $25.00</p>
+                                        <div class="card-actions justify-end my-2">
+                                            <div class="opacity-50">
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                            </div>
+                                            <p class="text-[#13131880] text-base font-medium">Delivery Fee : Free</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="container mx-auto border-solid border-2 rounded-2xl p-4">
+                        <div class="card w-full shadow-xl">
+                            <div class="lg:flex">
+                                <div class="rounded-xl w-full p-3 lg:w-auto">
+                                    <img src="Images/6.png" alt="Football" style="width: 100%; margin: 0 auto;">
+                                </div>
+                                <div class="card-body -mx-4 -my-3">
+
+                                    <div class="flex justify-between w-[26vh] mb-3">
+
+                                        <div class="rating">
+                                            <input type="radio" name="rating-2"
+                                                class="mask mask-star-2 bg-orange-400" />
+                                            <p class="ms-2 text-base font-medium text-[#13131880]">4.95</p>
+                                        </div>
+
+                                        <div class="flex">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none">
+                                                <g clip-path="url(#clip0_33_196)">
+                                                    <path
+                                                        d="M10 11.9995C10 12.5299 10.2107 13.0387 10.5858 13.4137C10.9609 13.7888 11.4696 13.9995 12 13.9995C12.5304 13.9995 13.0391 13.7888 13.4142 13.4137C13.7893 13.0387 14 12.5299 14 11.9995C14 11.4691 13.7893 10.9604 13.4142 10.5853C13.0391 10.2102 12.5304 9.99951 12 9.99951C11.4696 9.99951 10.9609 10.2102 10.5858 10.5853C10.2107 10.9604 10 11.4691 10 11.9995Z"
+                                                        stroke="#131318" stroke-opacity="0.5" stroke-width="1.5"
+                                                        stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path
+                                                        d="M21 11.9995C18.6 15.9995 15.6 17.9995 12 17.9995C8.4 17.9995 5.4 15.9995 3 11.9995C5.4 7.99951 8.4 5.99951 12 5.99951C15.6 5.99951 18.6 7.99951 21 11.9995Z"
+                                                        stroke="#131318" stroke-opacity="0.5" stroke-width="1.5"
+                                                        stroke-linecap="round" stroke-linejoin="round" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_33_196">
+                                                        <rect width="24" height="24" fill="white"
+                                                            transform="translate(0 -0.000488281)" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                            <p class="ms-2 text-base font-medium text-[#13131880]">40</p>
+                                        </div>
+
+                                        <div class="rating gap-1">
+                                            <input type="radio" name="rating-3"
+                                                class="mask mask-heart bg-slate-100 border-3" />
+                                            <p class="ms-2 text-base font-medium text-[#13131880]">200</p>
+
+                                        </div>
+
+
+                                    </div>
+
+                                    <h2 class="card-title text-xl font-extrabold lg:-mt-2">
+                                        Footballs
+                                    </h2>
+                                    <p class="text-base font-medium text-[#13131899]">
+                                        Elevate your gameplay on the field with our high quality footballs!
+                                    </p>
+                                    <div class=" lg:flex lg:-mt-4">
+                                        <p class="font-extrabold text-[#FF4240] text-lg pt-2">Price - $35.00</p>
+                                        <div class="card-actions justify-end my-2">
+                                            <div class="opacity-50">
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                            </div>
+                                            <p class="text-[#13131880] text-base font-medium">Delivery Fee : Free</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div>
-                        <h1 class="font-bold text-lg mt-7 mb-3">
-                            Your Email
-                        </h1>
-                        <div class="text-sm">
-                            <input type="email" name="Your Email" id="Your Email" required
-                                placeholder="     Enter your email"
-                                class="bg-[#13131805] h-[6vh] rounded-2xl w-full border-none outline-none">
+
+                    <div class="container mx-auto border-solid border-2 rounded-2xl p-4">
+                        <div class="card w-full shadow-xl">
+                            <div class="lg:flex">
+                                <div class="rounded-xl w-full p-3 lg:w-auto">
+                                    <img src="Images/7.png" alt="Hockey Cap" style="width: 100%; margin: 0 auto;">
+                                </div>
+                                <div class="card-body -mx-4 -my-3">
+
+                                    <div class="flex justify-between w-[26vh] mb-3">
+
+                                        <div class="rating">
+                                            <input type="radio" name="rating-2"
+                                                class="mask mask-star-2 bg-orange-400" />
+                                            <p class="ms-2 text-base font-medium text-[#13131880]">4.95</p>
+                                        </div>
+
+                                        <div class="flex">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none">
+                                                <g clip-path="url(#clip0_33_196)">
+                                                    <path
+                                                        d="M10 11.9995C10 12.5299 10.2107 13.0387 10.5858 13.4137C10.9609 13.7888 11.4696 13.9995 12 13.9995C12.5304 13.9995 13.0391 13.7888 13.4142 13.4137C13.7893 13.0387 14 12.5299 14 11.9995C14 11.4691 13.7893 10.9604 13.4142 10.5853C13.0391 10.2102 12.5304 9.99951 12 9.99951C11.4696 9.99951 10.9609 10.2102 10.5858 10.5853C10.2107 10.9604 10 11.4691 10 11.9995Z"
+                                                        stroke="#131318" stroke-opacity="0.5" stroke-width="1.5"
+                                                        stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path
+                                                        d="M21 11.9995C18.6 15.9995 15.6 17.9995 12 17.9995C8.4 17.9995 5.4 15.9995 3 11.9995C5.4 7.99951 8.4 5.99951 12 5.99951C15.6 5.99951 18.6 7.99951 21 11.9995Z"
+                                                        stroke="#131318" stroke-opacity="0.5" stroke-width="1.5"
+                                                        stroke-linecap="round" stroke-linejoin="round" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_33_196">
+                                                        <rect width="24" height="24" fill="white"
+                                                            transform="translate(0 -0.000488281)" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                            <p class="ms-2 text-base font-medium text-[#13131880]">40</p>
+                                        </div>
+
+                                        <div class="rating gap-1">
+                                            <input type="radio" name="rating-3"
+                                                class="mask mask-heart bg-slate-100 border-3" />
+                                            <p class="ms-2 text-base font-medium text-[#13131880]">200</p>
+
+                                        </div>
+
+
+                                    </div>
+
+                                    <h2 class="card-title text-xl font-extrabold lg:-mt-2">
+                                        Hockey Cap
+                                    </h2>
+                                    <p class="text-base font-medium text-[#13131899]">
+                                        Top off your style with our iconic hockey-themed caps!
+                                    </p>
+                                    <div class=" lg:flex lg:-mt-4">
+                                        <p class="font-extrabold text-[#FF4240] text-lg pt-2">Price - $15.00</p>
+                                        <div class="card-actions justify-end my-2">
+                                            <div class="opacity-50">
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                            </div>
+                                            <p class="text-[#13131880] text-base font-medium">Delivery Fee : Free</p>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div>
-                        <h1 class="font-bold text-lg mt-7 mb-3">
-                            Subject
-                        </h1>
-                        <div class="text-sm">
-                            <input type="text" name="Your Subject" id="Your Subject"
-                                placeholder="     Enter your subject" required
-                                class="bg-[#13131805] h-[6vh] rounded-2xl w-full border-none outline-none">
+
+                    <div class="container mx-auto border-solid border-2 rounded-2xl p-4">
+                        <div class="card w-full shadow-xl">
+                            <div class="lg:flex">
+                                <div class="rounded-xl w-full p-3 lg:w-auto">
+                                    <img src="Images/8.png" alt="Hockey Jersey" style="width: 100%; margin: 0 auto;">
+                                </div>
+                                <div class="card-body -mx-4 -my-3">
+                                    <div class="flex justify-between w-[26vh] mb-3">
+
+                                        <div class="rating">
+                                            <input type="radio" name="rating-2"
+                                                class="mask mask-star-2 bg-orange-400" />
+                                            <p class="ms-2 text-base font-medium text-[#13131880]">4.95</p>
+                                        </div>
+
+                                        <div class="flex">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none">
+                                                <g clip-path="url(#clip0_33_196)">
+                                                    <path
+                                                        d="M10 11.9995C10 12.5299 10.2107 13.0387 10.5858 13.4137C10.9609 13.7888 11.4696 13.9995 12 13.9995C12.5304 13.9995 13.0391 13.7888 13.4142 13.4137C13.7893 13.0387 14 12.5299 14 11.9995C14 11.4691 13.7893 10.9604 13.4142 10.5853C13.0391 10.2102 12.5304 9.99951 12 9.99951C11.4696 9.99951 10.9609 10.2102 10.5858 10.5853C10.2107 10.9604 10 11.4691 10 11.9995Z"
+                                                        stroke="#131318" stroke-opacity="0.5" stroke-width="1.5"
+                                                        stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path
+                                                        d="M21 11.9995C18.6 15.9995 15.6 17.9995 12 17.9995C8.4 17.9995 5.4 15.9995 3 11.9995C5.4 7.99951 8.4 5.99951 12 5.99951C15.6 5.99951 18.6 7.99951 21 11.9995Z"
+                                                        stroke="#131318" stroke-opacity="0.5" stroke-width="1.5"
+                                                        stroke-linecap="round" stroke-linejoin="round" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_33_196">
+                                                        <rect width="24" height="24" fill="white"
+                                                            transform="translate(0 -0.000488281)" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                            <p class="ms-2 text-base font-medium text-[#13131880]">40</p>
+                                        </div>
+
+                                        <div class="rating gap-1">
+                                            <input type="radio" name="rating-3"
+                                                class="mask mask-heart bg-slate-100 border-3" />
+                                            <p class="ms-2 text-base font-medium text-[#13131880]">200</p>
+
+                                        </div>
+
+
+                                    </div>
+
+                                    <h2 class="card-title text-xl font-extrabold lg:-mt-2">
+                                        Hockey Jersey
+                                    </h2>
+                                    <p class="text-base font-medium text-[#13131899]">
+                                        Gear up in style with our premium hockey jerseys collection.
+                                    </p>
+                                    <div class=" lg:flex lg:-mt-4">
+                                        <p class="font-extrabold text-[#FF4240] text-lg pt-2">Price - $29.00</p>
+                                        <div class="card-actions justify-end my-2">
+                                            <div class="opacity-50">
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                            </div>
+                                            <p class="text-[#13131880] text-base font-medium">Delivery Fee : Free</p>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div>
-                        <h1 class="font-bold text-lg mt-7 mb-3">
-                            Phone Number
-                        </h1>
-                        <div class="text-sm">
-                            <input type="tel" pattern="[0-9]{10}" required name="telephone" id="Your Number"
-                                placeholder="     Enter your phone number"
-                                class="bg-[#13131805] h-[6vh] rounded-2xl w-full border-none outline-none">
+
+                    <div class="container mx-auto border-solid border-2 rounded-2xl p-4 ">
+                        <div class="card w-full shadow-xl">
+                            <div class="lg:flex">
+                                <div class="rounded-xl w-full p-3 lg:w-auto">
+                                    <img src="Images/9.png" alt="Hockey Helmet" style="width: 100%; margin: 0 auto;">
+                                </div>
+                                <div class="card-body -mx-4 -my-3">
+                                    <div class="flex justify-between w-[26vh] mb-3">
+
+                                        <div class="rating">
+                                            <input type="radio" name="rating-2"
+                                                class="mask mask-star-2 bg-orange-400" />
+                                            <p class="ms-2 text-base font-medium text-[#13131880]">4.95</p>
+                                        </div>
+
+                                        <div class="flex">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none">
+                                                <g clip-path="url(#clip0_33_196)">
+                                                    <path
+                                                        d="M10 11.9995C10 12.5299 10.2107 13.0387 10.5858 13.4137C10.9609 13.7888 11.4696 13.9995 12 13.9995C12.5304 13.9995 13.0391 13.7888 13.4142 13.4137C13.7893 13.0387 14 12.5299 14 11.9995C14 11.4691 13.7893 10.9604 13.4142 10.5853C13.0391 10.2102 12.5304 9.99951 12 9.99951C11.4696 9.99951 10.9609 10.2102 10.5858 10.5853C10.2107 10.9604 10 11.4691 10 11.9995Z"
+                                                        stroke="#131318" stroke-opacity="0.5" stroke-width="1.5"
+                                                        stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path
+                                                        d="M21 11.9995C18.6 15.9995 15.6 17.9995 12 17.9995C8.4 17.9995 5.4 15.9995 3 11.9995C5.4 7.99951 8.4 5.99951 12 5.99951C15.6 5.99951 18.6 7.99951 21 11.9995Z"
+                                                        stroke="#131318" stroke-opacity="0.5" stroke-width="1.5"
+                                                        stroke-linecap="round" stroke-linejoin="round" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_33_196">
+                                                        <rect width="24" height="24" fill="white"
+                                                            transform="translate(0 -0.000488281)" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                            <p class="ms-2 text-base font-medium text-[#13131880]">40</p>
+                                        </div>
+
+                                        <div class="rating gap-1">
+                                            <input type="radio" name="rating-3"
+                                                class="mask mask-heart bg-slate-100 border-3" />
+                                            <p class="ms-2 text-base font-medium text-[#13131880]">200</p>
+
+                                        </div>
+
+
+                                    </div>
+                                    <h2 class="card-title text-xl font-extrabold lg:-mt-2">
+                                        Hockey Helmet
+                                    </h2>
+                                    <p class="text-base font-medium text-[#13131899]">
+                                        Stay protected on the ice with our cutting-edge hockey helmets.
+                                    </p>
+                                    <div class=" lg:flex lg:-mt-4">
+                                        <p class="font-extrabold text-[#FF4240] text-lg pt-2">Price - $28.00</p>
+                                        <div class="card-actions justify-end my-2">
+                                            <div class="opacity-50">
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                            </div>
+                                            <p class="text-[#13131880] text-base font-medium">Delivery Fee : Free</p>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="lg:col-span-2">
+
+                    <div class="container mx-auto border-solid border-2 rounded-2xl p-4">
+                        <div class="card w-full shadow-xl">
+                            <div class="lg:flex">
+                                <div class="rounded-xl w-full p-3 lg:w-auto">
+                                    <img src="Images/10.png" alt="World Cup Football"
+                                        style="width: 100%; margin: 0 auto;">
+                                </div>
+                                <div class="card-body -mx-4 -my-3">
+                                    <div class="flex justify-between w-[26vh] mb-3">
+
+                                        <div class="rating">
+                                            <input type="radio" name="rating-2"
+                                                class="mask mask-star-2 bg-orange-400" />
+                                            <p class="ms-2 text-base font-medium text-[#13131880]">4.95</p>
+                                        </div>
+
+                                        <div class="flex">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none">
+                                                <g clip-path="url(#clip0_33_196)">
+                                                    <path
+                                                        d="M10 11.9995C10 12.5299 10.2107 13.0387 10.5858 13.4137C10.9609 13.7888 11.4696 13.9995 12 13.9995C12.5304 13.9995 13.0391 13.7888 13.4142 13.4137C13.7893 13.0387 14 12.5299 14 11.9995C14 11.4691 13.7893 10.9604 13.4142 10.5853C13.0391 10.2102 12.5304 9.99951 12 9.99951C11.4696 9.99951 10.9609 10.2102 10.5858 10.5853C10.2107 10.9604 10 11.4691 10 11.9995Z"
+                                                        stroke="#131318" stroke-opacity="0.5" stroke-width="1.5"
+                                                        stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path
+                                                        d="M21 11.9995C18.6 15.9995 15.6 17.9995 12 17.9995C8.4 17.9995 5.4 15.9995 3 11.9995C5.4 7.99951 8.4 5.99951 12 5.99951C15.6 5.99951 18.6 7.99951 21 11.9995Z"
+                                                        stroke="#131318" stroke-opacity="0.5" stroke-width="1.5"
+                                                        stroke-linecap="round" stroke-linejoin="round" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_33_196">
+                                                        <rect width="24" height="24" fill="white"
+                                                            transform="translate(0 -0.000488281)" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                            <p class="ms-2 text-base font-medium text-[#13131880]">40</p>
+                                        </div>
+
+                                        <div class="rating gap-1">
+                                            <input type="radio" name="rating-3"
+                                                class="mask mask-heart bg-slate-100 border-3" />
+                                            <p class="ms-2 text-base font-medium text-[#13131880]">200</p>
+
+                                        </div>
+
+
+                                    </div>
+                                    <h2 class="card-title text-xl font-extrabold lg:-mt-2">
+                                        World Cup Football
+                                    </h2>
+                                    <p class="text-base font-medium text-[#13131899]">
+                                        Unleash your passion with our official World Cup football collection.
+                                    </p>
+                                    <div class=" lg:flex lg:-mt-4">
+                                        <p class="font-extrabold text-[#FF4240] text-lg pt-2">Price - $70.00</p>
+                                        <div class="card-actions justify-end my-2">
+                                            <div class="opacity-50">
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                            </div>
+                                            <p class="text-[#13131880] text-base font-medium">Delivery Fee : Free</p>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+
+            <nav class="border-b-2 border-dotted pb-7 lg:pb-14">
+                <div class="my-4 mx-auto justify-center text-center border-b-2 border-dotted py-4 lg:pb-14">
+                    <h1 class="text-xl font-extrabold lg:text-4xl ">
+                        QnA Section
+                    </h1>
+                    <p
+                        class="text-base font-sm lg:w-[70vh] lg: mx-auto my-8 w-[40vh] lg:flex lg:justify-center lg:text-center text-[#13131899]">
+                        Dive into knowledge! Explore our Q&A section for answers to your burning questions and discover
+                        insights.
+                    </p>
+                </div>
+                <div class="lg:mt-12 mt-6">
+                    <div
+                        class="lg:grid lg:grid-cols-2 lg:gap-7 lg:grid-rows-1 flex-col border-solid border-2 rounded-2xl p-6 lg:p-7">
+                        <div class="w-full lg:my-3">
+                            <img src="Images/11.png" alt="Faq" style="width: 100%;">
+
+                        </div>
+
+                        <div class="">
+                            <div class="collapse collapse-plus bg-base-200 my-3 lg:my-5 lg:mb-3 lg:mt-8">
+                                <input type="radio" name="my-accordion-3" checked="checked" />
+                                <div class="collapse-title text-xl font-bold">
+                                    Our Equipment
+                                </div>
+                                <div class="collapse-content">
+                                    <p class="text-base text-[#13131899]">
+                                        Unleash your potential with cutting-edge gear. Elevate your game with our
+                                        premium
+                                        equipment collection.
+                                    </p>
+                                </div>
+
+                            </div>
+                            <hr>
+                            <div class="collapse collapse-plus bg-base-200 my-3 lg:my-5">
+                                <input type="radio" name="my-accordion-3" />
+                                <div class="collapse-title text-xl font-bold">
+                                    Hockey Training
+                                </div>
+                                <div class="collapse-content">
+                                    <p class="text-base text-[#13131899]">
+                                        Power up your game with precision training-where dedication meets the puck,
+                                        forging
+                                        champions on the ice.
+                                    </p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="collapse collapse-plus bg-base-200 my-3 lg:my-5">
+                                <input type="radio" name="my-accordion-3" />
+                                <div class="collapse-title text-xl font-bold">
+                                    Private Lessons
+                                </div>
+                                <div class="collapse-content">
+                                    <p class="text-base text-[#13131899]">
+                                        Elevate your skills with personalized attention. Unlock your potential through
+                                        tailored private lessons with our expert coaches.
+                                    </p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="collapse collapse-plus bg-base-200 my-3 lg:my-5">
+                                <input type="radio" name="my-accordion-3" />
+                                <div class="collapse-title text-xl font-bold">
+                                    Ski Touring
+                                </div>
+                                <div class="collapse-content">
+                                    <p class="text-base text-[#13131899]">
+                                        Embark on an exhilarating journey through pristine snowscapes with our ski
+                                        touring
+                                        adventures—where every slope becomes a story.
+                                    </p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="collapse collapse-plus bg-base-200 my-3 lg:my-5">
+                                <input type="radio" name="my-accordion-3" />
+                                <div class="collapse-title text-xl font-bold">
+                                    Booking
+                                </div>
+                                <div class="collapse-content">
+                                    <p class="text-base text-[#13131899]">
+                                        Seamless bookings, endless experiences. Reserve your spot and unlock the journey
+                                        to
+                                        unforgettable moments with us!
+                                    </p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="collapse collapse-plus bg-base-200 mt-3 lg:my-5">
+                                <input type="radio" name="my-accordion-3" />
+                                <div class="collapse-title text-xl font-bold">
+                                    Pricings
+                                </div>
+                                <div class="collapse-content">
+                                    <p class="text-base text-[#13131899]">
+                                        Unlock exceptional value with transparent pricing. Choose the plan that suits
+                                        your
+                                        needs and elevate your experience.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+            </nav>
+
+            <nav class=" pb-7 lg:py-8">
+                <div class="my-4 mx-auto justify-center text-center border-b-2 border-dotted py-4">
+                    <h1 class="text-xl font-extrabold lg:text-4xl ">
+                        Get In Touch
+                    </h1>
+                    <p
+                        class="text-base font-sm lg:w-[70vh] lg: mx-auto my-8 w-[40vh] lg:flex lg:justify-center lg:text-center text-[#13131899]">
+                        Connect with us! Reach out and let's start a conversation. Your journey begins here, with us
+                        ready
+                        to assist you.
+                    </p>
+                </div>
+                <div class="lg:grid lg:grid-cols-2 lg:gap-8">
+
+                    <div class="grid gap-4">
+                        <div class="border-solid border-2 rounded-2xl p-5">
+                            <div class="border-none border-2 rounded-2xl bg-lime-100 p-6">
+                                <img src="Images/phone.png" alt="phone">
+                                <p class="text-[#13131899] mt-4 mb-2">
+                                    Phone Number:
+                                </p>
+                                <h1 class="text-lg font-extrabold my-2">
+                                    (+880) 123 456 7890
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="border-solid border-2 rounded-2xl p-5">
+                            <div class="border-none border-2 rounded-2xl bg-yellow-100 p-6">
+                                <img src="Images/message.png" alt="Email">
+                                <p class="text-[#13131899] my-3">
+                                    Email:
+                                </p>
+                                <h1 class="text-lg font-extrabold my-3">
+                                    sabab2808@gmail.com
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="border-solid border-2 rounded-2xl p-5">
+                            <div class="border-none border-2 rounded-2xl bg-cyan-100 p-6">
+                                <img src="Images/map.png" alt="location">
+                                <p class="text-[#13131899] my-2">
+                                    Location:
+                                </p>
+                                <h1 class="text-lg font-extrabold my-2">
+                                    East Monipur,Kazipara,<br>
+                                    Mirpur2,Dhaka 1216.
+                                </h1>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="lg:grid lg:grid-cols-2 lg:gap-5">
                         <div>
                             <h1 class="font-bold text-lg mt-7 mb-3">
-                                Message
+                                Your Name
                             </h1>
-                            <textarea placeholder="     Write your message"
-                                class="w-full h-[30vh] border-none outline-none bg-[#13131805] rounded-2xl"></textarea>
+                            <div class="text-sm">
+                                <input type="text" name="Your Name" id="Your Name" required
+                                    placeholder="     Enter your full name"
+                                    class="bg-[#13131805] h-[6vh] rounded-2xl w-full border-none outline-none">
+                            </div>
                         </div>
-                        <div class="my-3">
-                            <button type="submit"
-                                class="bg-[#FF4240] border-2 border-[#FF4240] rounded-2xl w-full h-[6vh]"><span
-                                    class="font-bold text-xl text-white">Send Message</span></button>
+                        <div>
+                            <h1 class="font-bold text-lg mt-7 mb-3">
+                                Your Email
+                            </h1>
+                            <div class="text-sm">
+                                <input type="email" name="Your Email" id="Your Email" required
+                                    placeholder="     Enter your email"
+                                    class="bg-[#13131805] h-[6vh] rounded-2xl w-full border-none outline-none">
+                            </div>
+                        </div>
+                        <div>
+                            <h1 class="font-bold text-lg mt-7 mb-3">
+                                Subject
+                            </h1>
+                            <div class="text-sm">
+                                <input type="text" name="Your Subject" id="Your Subject"
+                                    placeholder="     Enter your subject" required
+                                    class="bg-[#13131805] h-[6vh] rounded-2xl w-full border-none outline-none">
+                            </div>
+                        </div>
+                        <div>
+                            <h1 class="font-bold text-lg mt-7 mb-3">
+                                Phone Number
+                            </h1>
+                            <div class="text-sm">
+                                <input type="tel" pattern="[0-9]{10}" required name="telephone" id="Your Number"
+                                    placeholder="     Enter your phone number"
+                                    class="bg-[#13131805] h-[6vh] rounded-2xl w-full border-none outline-none">
+                            </div>
+                        </div>
+                        <div class="lg:col-span-2">
+                            <div>
+                                <h1 class="font-bold text-lg mt-7 mb-3">
+                                    Message
+                                </h1>
+                                <textarea placeholder="     Write your message"
+                                    class="w-full h-[30vh] border-none outline-none bg-[#13131805] rounded-2xl"></textarea>
+                            </div>
+                            <div class="my-3">
+                                <button type="submit"
+                                    class="bg-[#FF4240] border-2 border-[#FF4240] rounded-2xl w-full h-[6vh]"><span
+                                        class="font-bold text-xl text-white">Send Message</span></button>
+                            </div>
                         </div>
                     </div>
+
                 </div>
 
+            </nav>
+
+            <nav class="bg-[#13131805] rounded-xl h-[15vh] mb-10 -mx-8">
+            <div class="lg:my-14 my-8">
+                <h1 class="text-2xl font-extrabold text-center my-6">
+                    Social Media
+                </h1>
+                <div class="flex justify-evenly mb-7">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-github"></i>
+                </div>
             </div>
-
-        </nav>
-
-
-    </main>
+            </nav>
+        </main>
+    </nav>
 
 
-    <footer>
+
+    <footer class="bg-[#131318] p-10 bg-base-200 text-base-content w-full">
+        <div class="lg:flex lg:justify-evenly text-center">
+            <nav>
+                <div>
+                    <header class="font-extrabold text-white text-3xl">Get in Touch</header>
+                    <p class="text-[#FFFFFF99] my-6 h-[5vh]">
+                        Connect with us ! Reach out for <br>personalized assistance. Your questions,<br> our answers. Let's
+                        embark on your journey together!
+                    </p>
+                </div>
+
+                    <div class="flex justify-center">
+                        <img src="Images/mail.png" alt="Email" class="mr-3">
+                        <p class="text-[#FFFFFF99]">
+                            sadman2808@gmail.com
+                        </p>
+                    </div>
+                    <div class="flex justify-center lg:my-2">
+                        <img src="Images/cell.png" alt="Cellphone" class="mr-3">
+                        <p class="text-[#FFFFFF99]">
+                            (+880) 123 456 7890
+                        </p>
+                    </div>
+
+            </nav>
+            <nav class="grid grid-cols-2 lg:gap-80">  
+                <nav>
+                    <header class="text-2xl font-extrabold text-white">Company</header>
+                    <div class="text-[#FFFFFF99] my-5">
+                        <a class="link link-hover">About us</a><br>
+                        <a class="link link-hover">Leadership</a><br>
+                        <a class="link link-hover">Careers</a><br>
+                        <a class="link link-hover">News & Article</a><br>
+                        <a class="link link-hover">Legal Notices</a><br>
+                    </div>
+    
+                </nav>
+                <nav>
+                    <header class="text-2xl font-extrabold text-white">Support</header>
+                    <div class="text-[#FFFFFF99] my-5">
+                        <a class="link link-hover">Help Center</a><br>
+                        <a class="link link-hover">FAQ</a><br>
+                        <a class="link link-hover">Ticket Support</a><br>
+                        <a class="link link-hover">Contact Us</a><br>
+                    </div>
+    
+                </nav>
+            </nav>
+           
+
+            <nav>
+                <header class="text-2xl font-extrabold text-white">Services</header>
+                <div class="text-[#FFFFFF99] my-5">
+                    <a class="link link-hover">Academy</a><br>
+                    <a class="link link-hover">Group Lesson</a><br>
+                    <a class="link link-hover">Hockeys for Kids</a><br>
+                    <a class="link link-hover">Hockeys for Adults</a><br>
+                </div>
+
+            </nav>
+        </div>
 
     </footer>
+
 
 
 </body>
