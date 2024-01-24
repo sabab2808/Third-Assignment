@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,100 +10,118 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
-        body{
+
+        body {
             font-family: 'Manrope', sans-serif;
         }
     </style>
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
+
 <body class="px-3">
+
+
     <header class="container mx-auto lg:px-20 px-0 sm:my-8 sm:py-2">
         <div class="navbar lg:px-0">
             <div class="navbar-start">
-              <div class="sd: dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden pl-0">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                <div class="sd: dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden pl-0">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li>
+                            <a>Home</a>
+                        </li>
+                        <li>
+                            <a>About</a>
+                        </li>
+                        <li>
+                            <a>Pages</a>
+                        </li>
+                        <li>
+                            <a>Blog</a>
+                        </li>
+                        <li>
+                            <a>Contact</a>
+                        </li>
+                    </ul>
                 </div>
-                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                  <li >
-                    <a>Home</a>
-                  </li>
-                  <li>
-                    <a>About</a>
-                  </li>
-                  <li>
-                    <a>Pages</a> 
-                  </li>
-                  <li>
-                    <a>Blog</a> 
-                  </li>
-                  <li>
-                    <a>Contact</a> 
-                  </li>
-                </ul>
-              </div>
-              <a class="sm:text-xl lg:text-4xl font-extrabold tex"><span class="text-[#FF4240]">H</span>ockeyHaven</a>  
+                <a class="sm:text-xl lg:text-4xl font-extrabold tex"><span class="text-[#FF4240]">H</span>ockeyHaven</a>
             </div>
             <div class="navbar-center hidden lg:flex">
-              <ul class="menu menu-horizontal px-1 lg:text-base">
-                  <li class="text-[#FF4240]">
-                    <a>Home</a>
-                  </li>
-                  <li>
-                    <a>About</a>
-                  </li>
-                  <li>
-                    <a>Pages</a> 
-                  </li>
-                  <li>
-                    <a>Blog</a> 
-                  </li>
-                  <li>
-                    <a>Contact</a> 
-                  </li>
-              </ul>
+                <ul class="menu menu-horizontal px-1 lg:text-base">
+                    <li class="text-[#FF4240]">
+                        <a>Home</a>
+                    </li>
+                    <li>
+                        <a>About</a>
+                    </li>
+                    <li>
+                        <a>Pages</a>
+                    </li>
+                    <li>
+                        <a>Blog</a>
+                    </li>
+                    <li>
+                        <a>Contact</a>
+                    </li>
+                </ul>
             </div>
             <div class="navbar-end">
                 <div class="hidden lg:opacity-50 lg:px-5 lg:block sm:hidden">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
-              <a class="btn bg-[#FF4240] text-white lg:px-6 lg:py-4 sm:h-2 sm:w-35 lg:h-14 lg:w-35 sm:px-1">Get Ticket</a>
+                <a class="btn bg-[#FF4240] text-white lg:px-6 lg:py-4 sm:h-2 sm:w-35 lg:h-14 lg:w-35 sm:px-1">Get
+                    Ticket</a>
             </div>
-          </div>
+        </div>
     </header>
+
+
     <div class="container mx-auto my-2 lg:px-20 sm:px-3 sm:my-8">
         <div class="carousel w-full rounded-xl">
-            <div id="slide1" class="carousel-item relative w-full bg-[linear-gradient(rgba(211,211,211,1)0%,rgba(211,211,211,0)100%),url('Images/carousel2.jpg')] h-[30vh] lg:h-[60vh] bg-cover">
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide4" class="btn btn-circle bg-slate-400">❮</a> 
-                <a href="#slide2" class="btn btn-circle bg-slate-400">❯</a>
-              </div>
-            </div> 
-            <div id="slide2" class="carousel-item relative w-full bg-[linear-gradient(rgba(211,211,211,1)0%,rgba(211,211,211,0)100%),url('Images/carousel1.jpg')] h-[30vh] lg:h-[60vh] bg-cover">
-             
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide1" class="btn btn-circle bg-slate-400">❮</a> 
-                <a href="#slide3" class="btn btn-circle bg-slate-400">❯</a>
-              </div>
-            </div> 
-            <div id="slide3" class="carousel-item relative w-full bg-[linear-gradient(rgba(211,211,211,1)0%,rgba(211,211,211,0)100%),url('Images/carousel3.jpg')] h-[30vh] lg:h-[60vh] bg-cover">
-              
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide2" class="btn btn-circle bg-slate-400">❮</a> 
-                <a href="#slide4" class="btn btn-circle bg-slate-400">❯</a>
-              </div>
-            </div> 
-            <div id="slide4" class="carousel-item relative w-full bg-[linear-gradient(rgba(211,211,211,1)0%,rgba(211,211,211,0)100%),url('Images/carousel4.jpg')] h-[30vh] lg:h-[60vh] bg-cover">
-              
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide3" class="btn btn-circle bg-slate-400">❮</a> 
-                <a href="#slide1" class="btn btn-circle bg-slate-400">❯</a>
-              </div>
+            <div id="slide1"
+                class="carousel-item relative w-full bg-[linear-gradient(rgba(211,211,211,1)0%,rgba(211,211,211,0)100%),url('Images/carousel2.jpg')] h-[30vh] lg:h-[60vh] bg-cover">
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle bg-slate-400">❮</a>
+                    <a href="#slide2" class="btn btn-circle bg-slate-400">❯</a>
+                </div>
+            </div>
+            <div id="slide2"
+                class="carousel-item relative w-full bg-[linear-gradient(rgba(211,211,211,1)0%,rgba(211,211,211,0)100%),url('Images/carousel1.jpg')] h-[30vh] lg:h-[60vh] bg-cover">
+
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle bg-slate-400">❮</a>
+                    <a href="#slide3" class="btn btn-circle bg-slate-400">❯</a>
+                </div>
+            </div>
+            <div id="slide3"
+                class="carousel-item relative w-full bg-[linear-gradient(rgba(211,211,211,1)0%,rgba(211,211,211,0)100%),url('Images/carousel3.jpg')] h-[30vh] lg:h-[60vh] bg-cover">
+
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle bg-slate-400">❮</a>
+                    <a href="#slide4" class="btn btn-circle bg-slate-400">❯</a>
+                </div>
+            </div>
+            <div id="slide4"
+                class="carousel-item relative w-full bg-[linear-gradient(rgba(211,211,211,1)0%,rgba(211,211,211,0)100%),url('Images/carousel4.jpg')] h-[30vh] lg:h-[60vh] bg-cover">
+
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle bg-slate-400">❮</a>
+                    <a href="#slide1" class="btn btn-circle bg-slate-400">❯</a>
+                </div>
             </div>
         </div>
         <div class="relative my-2">
-            <div class="bg-[#131318] px-3 py-3 lg:px-5 lg:py-5 w-full lg:w-[45vh] h-[15vh] rounded-xl lg:absolute lg:right-20 lg:bottom-10">
+            <div
+                class="bg-[#131318] px-3 py-3 lg:px-5 lg:py-5 w-full lg:w-[45vh] h-[15vh] rounded-xl lg:absolute lg:right-20 lg:bottom-10">
                 <h2 class="font-extrabold text-lg text-white my-auto mx-auto">
                     Field heroes unite for special moments
                 </h2>
@@ -112,20 +131,29 @@
             </div>
         </div>
     </div>
+
+
     <main class="container mx-auto my-2 lg:px-20 sm:px-3 sm:my-8">
+
         <nav>
             <div class="my-4 mx-auto flex-col justify-center text-center border-y-2 border-dotted py-4">
                 <h1 class="text-xl font-extrabold lg:text-4xl ">
                     Professional Hockey Club
                 </h1>
-                <p class="text-base font-sm lg:w-[70vh] lg: mx-auto my-8 w-[40vh] text-[#13131899] lg:flex lg:justify-center lg:text-center">
-                    Elevate your passion for hockey with our professional club . where skill meets excellence, and victories become a tradition. Join us in a journey of precision, power, and the pursuit of championship glory.
+                <p
+                    class="text-base font-sm lg:w-[70vh] lg: mx-auto my-8 w-[40vh] text-[#13131899] lg:flex lg:justify-center lg:text-center">
+                    Elevate your passion for hockey with our professional club . where skill meets excellence, and
+                    victories become a tradition. Join us in a journey of precision, power, and the pursuit of
+                    championship glory.
                 </p>
             </div>
-            <div class="flex-col text-center lg:text-justify lg:mx-0 border-b-2 pb-6 border-dotted py-4 lg:pt-3 lg:pb-9">
+            <div
+                class="flex-col text-center lg:text-justify lg:mx-0 border-b-2 pb-6 border-dotted py-4 lg:pt-3 lg:pb-9">
                 <div class="lg:flex lg:justify-evenly lg:text-center">
                     <div class="my-4 mx-auto">
-                        <div class="radial-progress font-extrabold text-primary text-red-600" style="--value:87; transform: rotate(130deg);" role="progressbar"><span style="color: black; transform: rotate(-130deg);">87%</span></div>
+                        <div class="radial-progress font-extrabold text-primary text-red-600"
+                            style="--value:87; transform: rotate(130deg);" role="progressbar"><span
+                                style="color: black; transform: rotate(-130deg);">87%</span></div>
                         <h1 class="font-semibold my-5 mx-auto">
                             Prayer Facility
                         </h1>
@@ -134,7 +162,9 @@
                         </p>
                     </div>
                     <div class="my-4 mx-auto">
-                        <div class="radial-progress font-extrabold text-primary text-green-400" style="--value:90    ;transform: rotate(110deg)" role="progressbar"><span style="color: black;transform: rotate(-110deg)">95%</span></div>
+                        <div class="radial-progress font-extrabold text-primary text-green-400"
+                            style="--value:90    ;transform: rotate(110deg)" role="progressbar"><span
+                                style="color: black;transform: rotate(-110deg)">95%</span></div>
                         <h1 class="font-semibold my-5 mx-auto">
                             Experienced Coach
                         </h1>
@@ -143,7 +173,9 @@
                         </p>
                     </div>
                     <div class="my-4 mx-auto">
-                        <div class="radial-progress font-extrabold text-yellow-400" style="--value:90;transform: rotate(130deg)" role="progressbar"><span style="color: black;transform: rotate(-130deg)">90%</span></div>
+                        <div class="radial-progress font-extrabold text-yellow-400"
+                            style="--value:90;transform: rotate(130deg)" role="progressbar"><span
+                                style="color: black;transform: rotate(-130deg)">90%</span></div>
                         <h1 class="font-semibold my-5 mx-auto">
                             Senior Player
                         </h1>
@@ -152,7 +184,9 @@
                         </p>
                     </div>
                     <div class="my-4 mx-auto">
-                        <div class="radial-progress text-primary text-blue-500 font-extrabold" style="--value:80;transform: rotate(150deg)" role="progressbar"><span style="color: black;transform: rotate(-150deg)">80%</span></div>
+                        <div class="radial-progress text-primary text-blue-500 font-extrabold"
+                            style="--value:80;transform: rotate(150deg)" role="progressbar"><span
+                                style="color: black;transform: rotate(-150deg)">80%</span></div>
                         <h1 class="font-semibold my-5 mx-auto">
                             Training Ground
                         </h1>
@@ -164,62 +198,509 @@
 
             </div>
         </nav>
-        
+
 
         <nav class="mb-14 border-b-2 border-dotted py-7 lg:py-14">
             <div class="my-4 mx-auto flex-col justify-center text-center border-b-2 border-dotted py-4">
                 <h1 class="text-xl font-extrabold lg:text-4xl ">
                     Program Section
                 </h1>
-                <p class="text-base font-sm lg:w-[70vh] lg: mx-auto my-8 w-[40vh] lg:flex lg:justify-center lg:text-center ">
-                    Embark on a transformative journey with our enriching program. Where passion meets purpose, and excellence becomes a lifelong commitment.
+                <p
+                    class="text-base font-sm lg:w-[70vh] lg: mx-auto my-8 w-[40vh] lg:flex lg:justify-center lg:text-center ">
+                    Embark on a transformative journey with our enriching program. Where passion meets purpose, and
+                    excellence becomes a lifelong commitment.
                 </p>
             </div>
 
             <!-- grid -->
 
             <div class="grid grid-cols-1 grid-rows-1 gap-4 lg:grid-cols-2 lg:grid-rows-1 text-white mt-8">
-                <div class="bg-[linear-gradient(rgba(19,19,24,0.50),rgba(19,19,24,0.50)),url('Images/2.png')] w-full h-[25vh] rounded-xl lg:bg-no-repeat lg:w-full lg:h-[50vh] lg:bg-cover lg:relative">
+                <div
+                    class="bg-[linear-gradient(rgba(19,19,24,0.50),rgba(19,19,24,0.50)),url('Images/2.png')] w-full h-[25vh] rounded-xl lg:bg-no-repeat lg:w-full lg:h-[50vh] lg:bg-cover lg:relative bg-cover">
                     <div class="my-6 lg:absolute lg:bottom-4 lg:mx-5">
                         <h1 class="text-xl font-extrabold mx-5 my-auto lg:text-3xl">
                             Junior Program
                         </h1>
                         <p class="text-sm font-medium mx-5 mt-3 lg:text-base">
-                            Nurture the love for the game in our Junior Program—where young talents learn and form lasting bonds in the spirit of teamwork.
+                            Nurture the love for the game in our Junior Program—where young talents learn and form
+                            lasting bonds in the spirit of teamwork.
                         </p>
-                        <a class="btn bg-[#FF4240] text-white lg:px-6 lg:py-4 h-2 sm:w-35 lg:h-14 lg:w-35 sm:px-1 border-0 w-[17vh] mx-5 my-4">Register Now!</a>
+                        <a
+                            class="btn bg-[#FF4240] text-white lg:px-6 lg:py-4 h-2 sm:w-35 lg:h-14 lg:w-35 sm:px-1 border-0 w-[17vh] mx-5 my-4">Register
+                            Now!</a>
                     </div>
 
                 </div>
-                <div class="bg-[linear-gradient(rgba(19,19,24,0.50),rgba(19,19,24,0.50)),url('Images/3.png')] w-full h-[25vh] lg:bg-no-repeat lg:w-full lg:h-[50vh] lg:bg-cover rounded-xl lg:relative">
+                <div
+                    class="bg-[linear-gradient(rgba(19,19,24,0.50),rgba(19,19,24,0.50)),url('Images/3.png')] w-full h-[25vh] lg:bg-no-repeat lg:w-full lg:h-[50vh] lg:bg-cover rounded-xl lg:relative bg-cover">
                     <div class="my-6 lg:absolute lg:bottom-4 lg:mx-5">
                         <h1 class="text-xl font-extrabold mx-5 my-auto lg:text-3xl">
                             Teenager Program
                         </h1>
                         <p class="text-sm font-medium mx-5 mt-4 lg:text-base">
-                            Transforming teens into hockey leaders. Elevate skills, resilience, and teamwork with our dedicated Teenager Program.
+                            Transforming teens into hockey leaders. Elevate skills, resilience, and teamwork with our
+                            dedicated Teenager Program.
                         </p>
-                        <a class="btn bg-[#FF4240] text-white lg:px-6 lg:py-4 sm:h-2 sm:w-35 lg:h-14 lg:w-35 sm:px-1 border-0 w-[17vh] mx-5 my-4">Register Now!</a>
+                        <a
+                            class="btn bg-[#FF4240] text-white lg:px-6 lg:py-4 sm:h-2 sm:w-35 lg:h-14 lg:w-35 sm:px-1 border-0 w-[17vh] mx-5 my-4">Register
+                            Now!</a>
                     </div>
 
                 </div>
-                <div class="bg-[linear-gradient(rgba(19,19,24,0.50),rgba(19,19,24,0.50)),url('Images/4.png')] w-full h-[25vh] lg:col-span-2 lg:bg-no-repeat lg:w-full lg:h-[50vh] rounded-xl lg:bg-cover lg:relative">
+                <div
+                    class="bg-[linear-gradient(rgba(19,19,24,0.50),rgba(19,19,24,0.50)),url('Images/4.png')] w-full h-[25vh] lg:col-span-2 lg:bg-no-repeat lg:w-full lg:h-[50vh] rounded-xl lg:bg-cover lg:relative bg-cover">
                     <div class="my-6 lg:absolute lg:bottom-4 lg:mx-5">
                         <h1 class="text-xl font-extrabold mx-5 my-auto lg:text-3xl">
                             Professional Program
                         </h1>
                         <p class="text-sm font-medium mx-5 mt-4 lg:text-base">
-                            Forge greatness in our Professional Program. Elite coaching, cutting-edge training, and a pathway to hockey excellence.
+                            Forge greatness in our Professional Program. Elite coaching, cutting-edge training, and a
+                            pathway to hockey excellence.
                         </p>
-                        <a class="btn bg-[#FF4240] text-white lg:px-6 lg:py-4 sm:h-2 sm:w-35 lg:h-14 lg:w-35 sm:px-1 border-0 w-[17vh] mx-5 my-4">Register Now!</a>
+                        <a
+                            class="btn bg-[#FF4240] text-white lg:px-6 lg:py-4 sm:h-2 sm:w-35 lg:h-14 lg:w-35 sm:px-1 border-0 w-[17vh] mx-5 my-4">Register
+                            Now!</a>
                     </div>
 
                 </div>
             </div>
         </nav>
+
+
+        <nav class="border-b-2 border-dotted pb-7 lg:pb-14">
+            <div class="my-4 mx-auto flex-col justify-center text-center border-b-2 border-dotted pb-7">
+                <h1 class="text-xl font-extrabold lg:text-4xl ">
+                    Our New Products
+                </h1>
+                <p
+                    class="text-base font-sm lg:w-[70vh] lg: mx-auto my-8 w-[40vh] lg:flex lg:justify-center lg:text-center ">
+                    Discover innovation and elevate your game with our latest arrivals-introducing excellence through
+                    our new and exciting products.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 grid-rows-1 gap-5 lg:grid-cols-2 lg:grid-rows-3 pt-7">
+                <div class="container mx-auto border-solid border-2 rounded-2xl p-6 lg:p-4">
+                    
+                    <div class="card w-full shadow-xl">
+                            <div class="lg:flex">
+                            <div class="rounded-xl w-full p-3 lg:w-auto">
+                                <img src="Images/5.png" alt="Football Jacket" style=" width: 100%; margin: 0 auto; ">
+                            </div>
+                            <div class="card-body -mx-4 -my-3">
+
+                                <div class="flex justify-between w-[26vh] mb-3">
+
+                                    <div class="rating">
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                        <p class="ms-2 text-base font-medium text-[#13131880]">4.65</p>
+                                    </div>
+
+                                    <div class="flex">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none">
+                                            <g clip-path="url(#clip0_33_196)">
+                                                <path
+                                                    d="M10 11.9995C10 12.5299 10.2107 13.0387 10.5858 13.4137C10.9609 13.7888 11.4696 13.9995 12 13.9995C12.5304 13.9995 13.0391 13.7888 13.4142 13.4137C13.7893 13.0387 14 12.5299 14 11.9995C14 11.4691 13.7893 10.9604 13.4142 10.5853C13.0391 10.2102 12.5304 9.99951 12 9.99951C11.4696 9.99951 10.9609 10.2102 10.5858 10.5853C10.2107 10.9604 10 11.4691 10 11.9995Z"
+                                                    stroke="#131318" stroke-opacity="0.5" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path
+                                                    d="M21 11.9995C18.6 15.9995 15.6 17.9995 12 17.9995C8.4 17.9995 5.4 15.9995 3 11.9995C5.4 7.99951 8.4 5.99951 12 5.99951C15.6 5.99951 18.6 7.99951 21 11.9995Z"
+                                                    stroke="#131318" stroke-opacity="0.5" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_33_196">
+                                                    <rect width="24" height="24" fill="white"
+                                                        transform="translate(0 -0.000488281)" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                        <p class="ms-2 text-base font-medium text-[#13131880]">45</p>
+                                    </div>
+
+                                    <div class="rating gap-1">
+                                        <input type="radio" name="rating-3"
+                                            class="mask mask-heart bg-slate-100 border-3" />
+                                        <p class="ms-2 text-base font-medium text-[#13131880]">200</p>
+
+                                    </div>
+
+
+                                </div>
+
+                                <h2 class="card-title text-xl font-extrabold lg:-mt-2">
+                                    Football Jacket
+                                </h2>
+                                <p class="text-base font-medium text-[#13131899]">
+                                    Elevate your style on and off the field with our football jacket!
+                                </p>
+
+                                <div class=" lg:flex lg:-mt-4">
+                                    <p class="font-extrabold text-[#FF4240] text-lg pt-2">Price - $25.00</p>
+                                    <div class="card-actions justify-end my-2">
+                                        <div class="opacity-50">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                        <p class="text-[#13131880] text-base font-medium">Delivery Fee : Free</p>
+                                    </div>
+                                </div>
+ 
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                </div>
+
+                <div class="container mx-auto border-solid border-2 rounded-2xl p-4">
+                    <div class="card w-full shadow-xl">
+                        <div class="lg:flex">
+                        <div class="rounded-xl w-full p-3 lg:w-auto">
+                            <img src="Images/6.png" alt="Football" style="width: 100%; margin: 0 auto;">
+                        </div>
+                        <div class="card-body -mx-4 -my-3">
+
+                            <div class="flex justify-between w-[26vh] mb-3">
+
+                                <div class="rating">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <p class="ms-2 text-base font-medium text-[#13131880]">4.95</p>
+                                </div>
+
+                                <div class="flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none">
+                                        <g clip-path="url(#clip0_33_196)">
+                                            <path
+                                                d="M10 11.9995C10 12.5299 10.2107 13.0387 10.5858 13.4137C10.9609 13.7888 11.4696 13.9995 12 13.9995C12.5304 13.9995 13.0391 13.7888 13.4142 13.4137C13.7893 13.0387 14 12.5299 14 11.9995C14 11.4691 13.7893 10.9604 13.4142 10.5853C13.0391 10.2102 12.5304 9.99951 12 9.99951C11.4696 9.99951 10.9609 10.2102 10.5858 10.5853C10.2107 10.9604 10 11.4691 10 11.9995Z"
+                                                stroke="#131318" stroke-opacity="0.5" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M21 11.9995C18.6 15.9995 15.6 17.9995 12 17.9995C8.4 17.9995 5.4 15.9995 3 11.9995C5.4 7.99951 8.4 5.99951 12 5.99951C15.6 5.99951 18.6 7.99951 21 11.9995Z"
+                                                stroke="#131318" stroke-opacity="0.5" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_33_196">
+                                                <rect width="24" height="24" fill="white"
+                                                    transform="translate(0 -0.000488281)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    <p class="ms-2 text-base font-medium text-[#13131880]">40</p>
+                                </div>
+
+                                <div class="rating gap-1">
+                                    <input type="radio" name="rating-3" class="mask mask-heart bg-slate-100 border-3" />
+                                    <p class="ms-2 text-base font-medium text-[#13131880]">200</p>
+
+                                </div>
+
+
+                            </div>
+
+                            <h2 class="card-title text-xl font-extrabold lg:-mt-2">
+                                Footballs
+                            </h2>
+                            <p class="text-base font-medium text-[#13131899]">
+                                Elevate your gameplay on the field with our high quality footballs!
+                            </p>
+                            <div class=" lg:flex lg:-mt-4">
+                            <p class="font-extrabold text-[#FF4240] text-lg pt-2">Price - $35.00</p>
+                            <div class="card-actions justify-end my-2">
+                                <div class="opacity-50">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                                <p class="text-[#13131880] text-base font-medium">Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container mx-auto border-solid border-2 rounded-2xl p-4">
+                    <div class="card w-full shadow-xl">
+                        <div class="lg:flex">
+                        <div class="rounded-xl w-full p-3 lg:w-auto">
+                            <img src="Images/7.png" alt="Hockey Cap" style="width: 100%; margin: 0 auto;">
+                        </div>
+                        <div class="card-body -mx-4 -my-3">
+
+                            <div class="flex justify-between w-[26vh] mb-3">
+
+                                <div class="rating">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <p class="ms-2 text-base font-medium text-[#13131880]">4.95</p>
+                                </div>
+
+                                <div class="flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none">
+                                        <g clip-path="url(#clip0_33_196)">
+                                            <path
+                                                d="M10 11.9995C10 12.5299 10.2107 13.0387 10.5858 13.4137C10.9609 13.7888 11.4696 13.9995 12 13.9995C12.5304 13.9995 13.0391 13.7888 13.4142 13.4137C13.7893 13.0387 14 12.5299 14 11.9995C14 11.4691 13.7893 10.9604 13.4142 10.5853C13.0391 10.2102 12.5304 9.99951 12 9.99951C11.4696 9.99951 10.9609 10.2102 10.5858 10.5853C10.2107 10.9604 10 11.4691 10 11.9995Z"
+                                                stroke="#131318" stroke-opacity="0.5" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M21 11.9995C18.6 15.9995 15.6 17.9995 12 17.9995C8.4 17.9995 5.4 15.9995 3 11.9995C5.4 7.99951 8.4 5.99951 12 5.99951C15.6 5.99951 18.6 7.99951 21 11.9995Z"
+                                                stroke="#131318" stroke-opacity="0.5" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_33_196">
+                                                <rect width="24" height="24" fill="white"
+                                                    transform="translate(0 -0.000488281)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    <p class="ms-2 text-base font-medium text-[#13131880]">40</p>
+                                </div>
+
+                                <div class="rating gap-1">
+                                    <input type="radio" name="rating-3" class="mask mask-heart bg-slate-100 border-3" />
+                                    <p class="ms-2 text-base font-medium text-[#13131880]">200</p>
+
+                                </div>
+
+
+                            </div>
+
+                            <h2 class="card-title text-xl font-extrabold lg:-mt-2">
+                                Hockey Cap
+                            </h2>
+                            <p class="text-base font-medium text-[#13131899]">
+                                Top off your style with our iconic hockey-themed caps!
+                            </p>
+                            <div class=" lg:flex lg:-mt-4">
+                            <p class="font-extrabold text-[#FF4240] text-lg pt-2">Price - $15.00</p>
+                            <div class="card-actions justify-end my-2">
+                                <div class="opacity-50">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                                <p class="text-[#13131880] text-base font-medium">Delivery Fee : Free</p>
+
+
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container mx-auto border-solid border-2 rounded-2xl p-4">
+                    <div class="card w-full shadow-xl">
+                        <div class="lg:flex">
+                        <div class="rounded-xl w-full p-3 lg:w-auto">
+                            <img src="Images/8.png" alt="Hockey Jersey" style="width: 100%; margin: 0 auto;">
+                        </div>
+                        <div class="card-body -mx-4 -my-3">
+                            <div class="flex justify-between w-[26vh] mb-3">
+
+                                <div class="rating">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <p class="ms-2 text-base font-medium text-[#13131880]">4.95</p>
+                                </div>
+
+                                <div class="flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none">
+                                        <g clip-path="url(#clip0_33_196)">
+                                            <path
+                                                d="M10 11.9995C10 12.5299 10.2107 13.0387 10.5858 13.4137C10.9609 13.7888 11.4696 13.9995 12 13.9995C12.5304 13.9995 13.0391 13.7888 13.4142 13.4137C13.7893 13.0387 14 12.5299 14 11.9995C14 11.4691 13.7893 10.9604 13.4142 10.5853C13.0391 10.2102 12.5304 9.99951 12 9.99951C11.4696 9.99951 10.9609 10.2102 10.5858 10.5853C10.2107 10.9604 10 11.4691 10 11.9995Z"
+                                                stroke="#131318" stroke-opacity="0.5" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M21 11.9995C18.6 15.9995 15.6 17.9995 12 17.9995C8.4 17.9995 5.4 15.9995 3 11.9995C5.4 7.99951 8.4 5.99951 12 5.99951C15.6 5.99951 18.6 7.99951 21 11.9995Z"
+                                                stroke="#131318" stroke-opacity="0.5" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_33_196">
+                                                <rect width="24" height="24" fill="white"
+                                                    transform="translate(0 -0.000488281)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    <p class="ms-2 text-base font-medium text-[#13131880]">40</p>
+                                </div>
+
+                                <div class="rating gap-1">
+                                    <input type="radio" name="rating-3" class="mask mask-heart bg-slate-100 border-3" />
+                                    <p class="ms-2 text-base font-medium text-[#13131880]">200</p>
+
+                                </div>
+
+
+                            </div>
+
+                            <h2 class="card-title text-xl font-extrabold lg:-mt-2">
+                                Hockey Jersey
+                            </h2>
+                            <p class="text-base font-medium text-[#13131899]">
+                                Gear up in style with our premium hockey jerseys collection.
+                            </p>
+                            <div class=" lg:flex lg:-mt-4">
+                            <p class="font-extrabold text-[#FF4240] text-lg pt-2">Price - $29.00</p>
+                            <div class="card-actions justify-end my-2">
+                                <div class="opacity-50">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                                <p class="text-[#13131880] text-base font-medium">Delivery Fee : Free</p>
+
+
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="container mx-auto border-solid border-2 rounded-2xl p-4 ">
+                    <div class="card w-full shadow-xl">
+                        <div class="lg:flex">
+                        <div class="rounded-xl w-full p-3 lg:w-auto">
+                            <img src="Images/9.png" alt="Hockey Helmet" style="width: 100%; margin: 0 auto;">
+                        </div>
+                        <div class="card-body -mx-4 -my-3">
+                            <div class="flex justify-between w-[26vh] mb-3">
+
+                                <div class="rating">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <p class="ms-2 text-base font-medium text-[#13131880]">4.95</p>
+                                </div>
+
+                                <div class="flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none">
+                                        <g clip-path="url(#clip0_33_196)">
+                                            <path
+                                                d="M10 11.9995C10 12.5299 10.2107 13.0387 10.5858 13.4137C10.9609 13.7888 11.4696 13.9995 12 13.9995C12.5304 13.9995 13.0391 13.7888 13.4142 13.4137C13.7893 13.0387 14 12.5299 14 11.9995C14 11.4691 13.7893 10.9604 13.4142 10.5853C13.0391 10.2102 12.5304 9.99951 12 9.99951C11.4696 9.99951 10.9609 10.2102 10.5858 10.5853C10.2107 10.9604 10 11.4691 10 11.9995Z"
+                                                stroke="#131318" stroke-opacity="0.5" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M21 11.9995C18.6 15.9995 15.6 17.9995 12 17.9995C8.4 17.9995 5.4 15.9995 3 11.9995C5.4 7.99951 8.4 5.99951 12 5.99951C15.6 5.99951 18.6 7.99951 21 11.9995Z"
+                                                stroke="#131318" stroke-opacity="0.5" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_33_196">
+                                                <rect width="24" height="24" fill="white"
+                                                    transform="translate(0 -0.000488281)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    <p class="ms-2 text-base font-medium text-[#13131880]">40</p>
+                                </div>
+
+                                <div class="rating gap-1">
+                                    <input type="radio" name="rating-3" class="mask mask-heart bg-slate-100 border-3" />
+                                    <p class="ms-2 text-base font-medium text-[#13131880]">200</p>
+
+                                </div>
+
+
+                            </div>
+                            <h2 class="card-title text-xl font-extrabold lg:-mt-2">
+                                Hockey Helmet
+                            </h2>
+                            <p class="text-base font-medium text-[#13131899]">
+                                Stay protected on the ice with our cutting-edge hockey helmets.
+                            </p>
+                            <div class=" lg:flex lg:-mt-4">
+                            <p class="font-extrabold text-[#FF4240] text-lg pt-2">Price - $28.00</p>
+                            <div class="card-actions justify-end my-2">
+                                <div class="opacity-50">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                                <p class="text-[#13131880] text-base font-medium">Delivery Fee : Free</p>
+
+
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="container mx-auto border-solid border-2 rounded-2xl p-4">
+                    <div class="card w-full shadow-xl">
+                        <div class="lg:flex">
+                        <div class="rounded-xl w-full p-3 lg:w-auto">
+                            <img src="Images/10.png" alt="World Cup Football" style="width: 100%; margin: 0 auto;">
+                        </div>
+                        <div class="card-body -mx-4 -my-3">
+                            <div class="flex justify-between w-[26vh] mb-3">
+
+                                <div class="rating">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <p class="ms-2 text-base font-medium text-[#13131880]">4.95</p>
+                                </div>
+
+                                <div class="flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none">
+                                        <g clip-path="url(#clip0_33_196)">
+                                            <path
+                                                d="M10 11.9995C10 12.5299 10.2107 13.0387 10.5858 13.4137C10.9609 13.7888 11.4696 13.9995 12 13.9995C12.5304 13.9995 13.0391 13.7888 13.4142 13.4137C13.7893 13.0387 14 12.5299 14 11.9995C14 11.4691 13.7893 10.9604 13.4142 10.5853C13.0391 10.2102 12.5304 9.99951 12 9.99951C11.4696 9.99951 10.9609 10.2102 10.5858 10.5853C10.2107 10.9604 10 11.4691 10 11.9995Z"
+                                                stroke="#131318" stroke-opacity="0.5" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M21 11.9995C18.6 15.9995 15.6 17.9995 12 17.9995C8.4 17.9995 5.4 15.9995 3 11.9995C5.4 7.99951 8.4 5.99951 12 5.99951C15.6 5.99951 18.6 7.99951 21 11.9995Z"
+                                                stroke="#131318" stroke-opacity="0.5" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_33_196">
+                                                <rect width="24" height="24" fill="white"
+                                                    transform="translate(0 -0.000488281)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    <p class="ms-2 text-base font-medium text-[#13131880]">40</p>
+                                </div>
+
+                                <div class="rating gap-1">
+                                    <input type="radio" name="rating-3" class="mask mask-heart bg-slate-100 border-3" />
+                                    <p class="ms-2 text-base font-medium text-[#13131880]">200</p>
+
+                                </div>
+
+
+                            </div>
+                            <h2 class="card-title text-xl font-extrabold lg:-mt-2">
+                                World Cup Football
+                            </h2>
+                            <p class="text-base font-medium text-[#13131899]">
+                                Unleash your passion with our official World Cup football collection.
+                            </p>
+                            <div class=" lg:flex lg:-mt-4">
+                            <p class="font-extrabold text-[#FF4240] text-lg pt-2">Price - $70.00</p>
+                            <div class="card-actions justify-end my-2">
+                                <div class="opacity-50">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                                <p class="text-[#13131880] text-base font-medium">Delivery Fee : Free</p>
+
+
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
     </main>
+
+
     <footer>
-        
+
     </footer>
+
+
 </body>
+
+
 </html>
